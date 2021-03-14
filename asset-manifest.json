@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ics485-site/static/css/main.14b6f63b.chunk.css",
-    "main.js": "/ics485-site/static/js/main.c3bac87a.chunk.js",
-    "main.js.map": "/ics485-site/static/js/main.c3bac87a.chunk.js.map",
+    "main.js": "/ics485-site/static/js/main.afb63edf.chunk.js",
+    "main.js.map": "/ics485-site/static/js/main.afb63edf.chunk.js.map",
     "runtime-main.js": "/ics485-site/static/js/runtime-main.4b1f0bcd.js",
     "runtime-main.js.map": "/ics485-site/static/js/runtime-main.4b1f0bcd.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/ics485-site/static/css/2.4c97ca4f.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.f7fb8a42.chunk.js",
     "static/css/main.14b6f63b.chunk.css",
-    "static/js/main.c3bac87a.chunk.js"
+    "static/js/main.afb63edf.chunk.js"
   ]
 }
