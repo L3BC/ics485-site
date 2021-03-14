@@ -24,10 +24,26 @@ const Members = () => {
                         />
                     </Col>
                     <Col sm>
-                        <ProfileCard />
+                        <ProfileCard
+                            name={'Lana Kawauchi'}
+                            description={'Write description here.'}
+                            // imgLink={img1}
+                            // link={links.grahamGH}
+                            linkName={'GitHub'}
+                        // objectFit={'cover'}
+                        // objectPosition={'top'}
+                        />
                     </Col>
                     <Col sm>
-                        <ProfileCard />
+                        <ProfileCard
+                            name={'Daniel Oka'}
+                            description={'Write description here.'}
+                            // imgLink={img1}
+                            // link={links.grahamGH}
+                            // linkName={'Link'}
+                        // objectFit={'cover'}
+                        // objectPosition={'top'}
+                        />
                     </Col>
                 </Row>
             </Container>

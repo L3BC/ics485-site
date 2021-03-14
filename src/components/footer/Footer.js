@@ -46,13 +46,14 @@ const Footer = (props) => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
+                    id={'imageBlur'}
                     src={mirro}
                     alt="Fourth slide"
                 />
 
                 <Carousel.Caption>
-                    <h3>Fourth slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3 style={{color: '#000000'}}>Storyboard</h3>
+                    <p style={{color: '#000000'}}>Check out our game brainstorming on our Mirro board.</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
