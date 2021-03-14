@@ -1,0 +1,13 @@
+html, body, #root, .App {
+  height: 100%;
+  background-color: #0a97f5;
+}
+
+.navBar {
+  background-color: #000000;
+  /* background-color: #ffffff; */
+}
+
+.navText {
+  color: #ffffff !important;
+}
