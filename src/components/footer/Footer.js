@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import naruto from '../../assets/naruto.jpg';
 import kda from '../../assets/kda.jpg';
 import newshoes from '../../assets/newshoes.jpg';
+import mirro from '../../assets/mirro.jpg';
 
 const Footer = (props) => {
     return (
@@ -39,6 +40,18 @@ const Footer = (props) => {
 
                 <Carousel.Caption>
                     <h3>Third slide label</h3>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src={mirro}
+                    alt="Fourth slide"
+                />
+
+                <Carousel.Caption>
+                    <h3>Fourth slide label</h3>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                 </Carousel.Caption>
             </Carousel.Item>
