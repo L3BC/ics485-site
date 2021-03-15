@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import NavigationBar from './components/navBar/NavigationBar';
 import Container from 'react-bootstrap/Container';
-import Footer from './components/footer/Footer';
+import Home from './containers/home/Home';
 import Project from './containers/project/Project';
 import Members from './containers/members/Members';
 
@@ -15,7 +15,7 @@ const App = () => {
       <Container>
         <div style={{marginTop: 25}}>
           <Switch>
-            <Route path='/' exact component={Footer} />
+            <Route path='/' exact component={Home} />
             <Route path='/project' component={Project} />
             <Route path='/members' component={Members} />
           </Switch>
