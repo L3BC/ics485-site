@@ -10,7 +10,7 @@ const Home = (props) => {
     return (
         <div style={{ textAlign: 'center' }}>
             <h1 style={{ fontWeight: 'bold', fontSize: '48px' }}>Last 3 Brain Cells</h1>
-            <div style={{paddingBottom: 100}}>
+            <div style={{ paddingBottom: 100 }}>
                 <Carousel>
                     {/* <Carousel.Item>
                         <img
@@ -36,12 +36,14 @@ const Home = (props) => {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            id={'imageBlur'}
-                            src={trello}
-                            alt="Second slide"
-                        />
+                        <a href={'https://trello.com/b/Qr9F5ue6/lul'} target='_blank'>
+                            <img
+                                className="d-block w-100"
+                                id={'imageBlur'}
+                                src={trello}
+                                alt="Second slide"
+                            />
+                        </a>
 
                         <Carousel.Caption>
                             <h3>Trello Board</h3>
@@ -49,12 +51,14 @@ const Home = (props) => {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            id={'imageBlur'}
-                            src={mirro}
-                            alt="Fourth slide"
-                        />
+                        <a href={'https://miro.com/app/board/o9J_lTS7J4o=/'} target='_blank'>
+                            <img
+                                className="d-block w-100"
+                                id={'imageBlur'}
+                                src={mirro}
+                                alt="Fourth slide"
+                            />
+                        </a>
 
                         <Carousel.Caption>
                             <h3 style={{ color: '#000000' }}>Storyboard</h3>
