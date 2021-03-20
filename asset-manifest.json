@@ -1,30 +1,29 @@
 {
   "files": {
-    "main.css": "/ics485-site/static/css/main.14b6f63b.chunk.css",
-    "main.js": "/ics485-site/static/js/main.99634315.chunk.js",
-    "main.js.map": "/ics485-site/static/js/main.99634315.chunk.js.map",
+    "main.css": "/ics485-site/static/css/main.7600f17c.chunk.css",
+    "main.js": "/ics485-site/static/js/main.9e9cf0eb.chunk.js",
+    "main.js.map": "/ics485-site/static/js/main.9e9cf0eb.chunk.js.map",
     "runtime-main.js": "/ics485-site/static/js/runtime-main.4b1f0bcd.js",
     "runtime-main.js.map": "/ics485-site/static/js/runtime-main.4b1f0bcd.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/ics485-site/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.9191676c.chunk.js": "/ics485-site/static/js/2.9191676c.chunk.js",
-    "static/js/2.9191676c.chunk.js.map": "/ics485-site/static/js/2.9191676c.chunk.js.map",
+    "static/js/2.0e29dd40.chunk.js": "/ics485-site/static/js/2.0e29dd40.chunk.js",
+    "static/js/2.0e29dd40.chunk.js.map": "/ics485-site/static/js/2.0e29dd40.chunk.js.map",
     "static/js/3.6625a5a7.chunk.js": "/ics485-site/static/js/3.6625a5a7.chunk.js",
     "static/js/3.6625a5a7.chunk.js.map": "/ics485-site/static/js/3.6625a5a7.chunk.js.map",
     "index.html": "/ics485-site/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/ics485-site/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.14b6f63b.chunk.css.map": "/ics485-site/static/css/main.14b6f63b.chunk.css.map",
-    "static/js/2.9191676c.chunk.js.LICENSE.txt": "/ics485-site/static/js/2.9191676c.chunk.js.LICENSE.txt",
+    "static/css/main.7600f17c.chunk.css.map": "/ics485-site/static/css/main.7600f17c.chunk.css.map",
+    "static/js/2.0e29dd40.chunk.js.LICENSE.txt": "/ics485-site/static/js/2.0e29dd40.chunk.js.LICENSE.txt",
     "static/media/img1.38ca4972.jpg": "/ics485-site/static/media/img1.38ca4972.jpg",
-    "static/media/kda.49537cb2.jpg": "/ics485-site/static/media/kda.49537cb2.jpg",
     "static/media/mirro.abd24d3c.jpg": "/ics485-site/static/media/mirro.abd24d3c.jpg",
-    "static/media/naruto.0c1a7cd1.jpg": "/ics485-site/static/media/naruto.0c1a7cd1.jpg",
-    "static/media/newshoes.5fa9e40d.jpg": "/ics485-site/static/media/newshoes.5fa9e40d.jpg"
+    "static/media/newshoes.5fa9e40d.jpg": "/ics485-site/static/media/newshoes.5fa9e40d.jpg",
+    "static/media/trello.2968078a.jpg": "/ics485-site/static/media/trello.2968078a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4b1f0bcd.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.9191676c.chunk.js",
-    "static/css/main.14b6f63b.chunk.css",
-    "static/js/main.99634315.chunk.js"
+    "static/js/2.0e29dd40.chunk.js",
+    "static/css/main.7600f17c.chunk.css",
+    "static/js/main.9e9cf0eb.chunk.js"
   ]
 }
