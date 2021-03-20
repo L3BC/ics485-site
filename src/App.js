@@ -5,13 +5,14 @@ import Container from 'react-bootstrap/Container';
 import Home from './containers/home/Home';
 import Project from './containers/project/Project';
 import Members from './containers/members/Members';
+import Footer from './components/footer/Footer';
 
 import './App.css';
 
 const App = () => {
   return (
     <div>
-      <NavigationBar test={"This is a fucking prop!"} />
+      <NavigationBar/>
       <Container>
         <div style={{marginTop: 25}}>
           <Switch>
@@ -21,6 +22,7 @@ const App = () => {
           </Switch>
         </div>
       </Container>
+      {/* <Footer/> */}
     </div>
   );
 }
