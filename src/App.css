@@ -13,5 +13,5 @@ html, body, #root, .App {
 }
 
 #imageBlur {
-  filter: blur(2px);
+  filter: blur(4px);
 }

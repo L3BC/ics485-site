@@ -1,7 +1,8 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import naruto from '../../assets/naruto.jpg';
-import kda from '../../assets/kda.jpg';
+// import naruto from '../../assets/naruto.jpg';
+// import kda from '../../assets/kda.jpg';
+import trello from '../../assets/trello.jpg';
 import newshoes from '../../assets/newshoes.jpg';
 import mirro from '../../assets/mirro.jpg';
 
@@ -11,7 +12,7 @@ const Home = (props) => {
             <h1 style={{ fontWeight: 'bold', fontSize: '48px' }}>Last 3 Brain Cells</h1>
             <div style={{paddingBottom: 100}}>
                 <Carousel>
-                    <Carousel.Item>
+                    {/* <Carousel.Item>
                         <img
                             className="d-block w-100"
                             src={naruto}
@@ -21,19 +22,7 @@ const Home = (props) => {
                             <h3>First slide label</h3>
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                         </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={kda}
-                            alt="Second slide"
-                        />
-
-                        <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
+                    </Carousel.Item> */}
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
@@ -42,8 +31,21 @@ const Home = (props) => {
                         />
 
                         <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            <h3>Breaking Alpha</h3>
+                            <p>Check out our game, Breaking Alpha on itch.io</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            id={'imageBlur'}
+                            src={trello}
+                            alt="Second slide"
+                        />
+
+                        <Carousel.Caption>
+                            <h3>Trello Board</h3>
+                            <p>Check out our activities on our Trello board</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
