@@ -13,6 +13,7 @@ const links = {
     + '3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22108.5390625%22%20y%3D%' 
     + '2297.5%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E',
     grahamGH: 'https://github.com/gbfrancisco',
+    LanaGH: 'https://github.com/lanakawa',
 }
 
 export default links;

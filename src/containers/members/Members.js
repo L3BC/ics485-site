@@ -26,9 +26,9 @@ const Members = () => {
                     <Col sm>
                         <ProfileCard
                             name={'Lana Kawauchi'}
-                            description={'Write description here.'}
+                            description={'Hi, I\'m an ICS student.'}
                             // imgLink={img1}
-                            // link={links.grahamGH}
+                            link={links.LanaGH}
                             linkName={'GitHub'}
                         // objectFit={'cover'}
                         // objectPosition={'top'}
@@ -37,7 +37,7 @@ const Members = () => {
                     <Col sm>
                         <ProfileCard
                             name={'Daniel Oka'}
-                            description={'Write description here.'}
+                            description={'Hi, I\'m an ACM student.'}
                             // imgLink={img1}
                             // link={links.grahamGH}
                             // linkName={'Link'}
