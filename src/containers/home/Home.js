@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 // import naruto from '../../assets/naruto.jpg';
 // import kda from '../../assets/kda.jpg';
 import trello from '../../assets/trello.jpg';
-import newshoes from '../../assets/newshoes.jpg';
+import timetravel from '../../assets/timetravel.jpg';
 import mirro from '../../assets/mirro.jpg';
 
 const Home = (props) => {
@@ -26,13 +26,16 @@ const Home = (props) => {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src={newshoes}
+                            id={'imageBlur'}
+                            src={timetravel}
                             alt="Third slide"
                         />
 
                         <Carousel.Caption>
-                            <h3>Breaking Alpha</h3>
-                            <p>Check out our game, Breaking Alpha on itch.io</p>
+                            <div className="gradient">
+                                <h3 style={{ paddingTop: 15 }}>Breaking Alpha</h3>
+                                <p style={{ paddingBottom: 15 }}>Check out our game, Breaking Alpha on itch.io</p>
+                            </div>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -46,8 +49,10 @@ const Home = (props) => {
                         </a>
 
                         <Carousel.Caption>
-                            <h3>Trello Board</h3>
-                            <p>Check out our activities on our Trello board</p>
+                            <div className="gradient">
+                                <h3 style={{ paddingTop: 15 }}>Trello Board</h3>
+                                <p style={{ paddingBottom: 15 }}>Check out our activities on our Trello board</p>
+                            </div>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -61,8 +66,19 @@ const Home = (props) => {
                         </a>
 
                         <Carousel.Caption>
-                            <h3 style={{ color: '#000000' }}>Storyboard</h3>
-                            <p style={{ color: '#000000' }}>Check out our game brainstorming on our Mirro board.</p>
+                            <div className="gradient">
+                                <h3 style={{ paddingTop: 15, color: '#000' }}>Storyboard</h3>
+                                <p 
+                                    style={{ 
+                                        paddingBottom: 15,
+                                        paddingRight: 15, 
+                                        paddingLeft: 15,
+                                        color: '#000'
+                                    }}
+                                >
+                                    Check out our game brainstorming on our Mirro board
+                                </p>
+                            </div>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>

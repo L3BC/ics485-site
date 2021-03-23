@@ -15,3 +15,13 @@ html, body, #root, .App {
 #imageBlur {
   filter: blur(4px);
 }
+
+.gradient {
+  margin: auto;
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)
+  );
+  width: 50%
+}
