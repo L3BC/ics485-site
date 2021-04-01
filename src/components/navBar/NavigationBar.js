@@ -42,7 +42,7 @@ const NavigationBar = (props) => {
                             to="/"
                             style={{
                                 ...styles.buttons,
-                                fontWeight: activeButton == 0 ? 'bold' : null,
+                                fontWeight: activeButton === 0 ? 'bold' : null,
                             }}
                             onClick={() => setActiveButton(0)}
                         >
@@ -57,7 +57,7 @@ const NavigationBar = (props) => {
                             to="/project"
                             style={{
                                 ...styles.buttons,
-                                fontWeight: activeButton == 1 ? 'bold' : null
+                                fontWeight: activeButton === 1 ? 'bold' : null
                             }}
                             onClick={() => setActiveButton(1)}
                         >
@@ -72,7 +72,7 @@ const NavigationBar = (props) => {
                             to="/members"
                             style={{
                                 ...styles.buttons,
-                                fontWeight: activeButton == 2 ? 'bold' : null
+                                fontWeight: activeButton === 2 ? 'bold' : null
                             }}
                             onClick={() => setActiveButton(2)}
                         >

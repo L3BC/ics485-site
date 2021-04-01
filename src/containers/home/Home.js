@@ -39,7 +39,7 @@ const Home = (props) => {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <a href={'https://trello.com/b/Qr9F5ue6/lul'} target='_blank'>
+                        <a href={'https://trello.com/b/Qr9F5ue6/lul'} target='_blank' rel='noreferrer'>
                             <img
                                 className="d-block w-100"
                                 id={'imageBlur'}
@@ -56,7 +56,7 @@ const Home = (props) => {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <a href={'https://miro.com/app/board/o9J_lTS7J4o=/'} target='_blank'>
+                        <a href={'https://miro.com/app/board/o9J_lTS7J4o=/'} target='_blank' rel='noreferrer'>
                             <img
                                 className="d-block w-100"
                                 id={'imageBlur'}

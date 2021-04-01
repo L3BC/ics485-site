@@ -41,7 +41,54 @@ const Project = (props) => {
                         </ul>
                         <hr style={styles.divider} />
                         <h4>Week 2:</h4>
-
+                        <ul>
+                            <li>
+                                Tested character movement
+                                <ul>
+                                    <li>Plan to implement ladder climbing still in doubts</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Continued tests on enemy
+                                <ul>
+                                    <li>Checking collision with terrain</li>
+                                    <li>Will have to test interaction with doors</li>
+                                </ul>
+                            </li>
+                            <li>Started implementing time travel or dimension hopping</li>
+                            <li>
+                                Started implementing interactable objects
+                                <ul>
+                                    <li>Created highlighting system to see which objects can be interacted with</li>
+                                    <li>Created collectable objects that can be picked up and stored in inventory</li>
+                                    <li>
+                                        Created general script for doors
+                                        <ul>
+                                            <li>Must fix highlight bug</li>    
+                                        </ul>    
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                Started implementing inventory system
+                                <ul>
+                                    <li>Created working inventory UI</li>
+                                    <li>Created a list that contains collectable items</li>
+                                </ul>
+                            </li>
+                            <li>Started creating the character asset with animations</li>
+                            <li>Started creating the omnitrix</li>
+                            <li>
+                                <b>Plans for next week</b>
+                                <ul>
+                                    <li>Create the game map</li>
+                                    <li>Create First Person UI</li>
+                                    <li>Implement additional mechanics like slowing down time, speeding up time, and freezing time</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <hr style={styles.divider} />
+                        <h4>Week 3:</h4>
 
                     </div>
                 </Card>

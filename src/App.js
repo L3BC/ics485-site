@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Home from './containers/home/Home';
 import Project from './containers/project/Project';
 import Members from './containers/members/Members';
-import Footer from './components/footer/Footer';
+// import Footer from './components/footer/Footer';
 
 import './App.css';
 
