@@ -97,9 +97,21 @@ const Project = (props) => {
                                 </ul>
                             </li>
                             <li>
+                                Fixed Enemy AI
+                                <ul>
+                                    <li>Fixed so that it goes up stairs</li>
+                                    <li>Fixed so that it doesn't clip through walls</li>
+                                </ul>
+                            </li>
+                            <li>
                                 Added Slow down mechanic
                                 <ul>
-                                    <li>Added some obstacles</li>    
+                                    <li>Added some obstacles
+                                        <ul>
+                                            <li>Laser</li>
+                                            <li>Rotating Blades</li>
+                                        </ul>
+                                    </li>    
                                 </ul>    
                             </li>
                             <li>Started working on the map layout</li>
