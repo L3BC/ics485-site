@@ -38,7 +38,7 @@ const Members = () => {
                         <ProfileCard
                             name={'Daniel Oka'}
                             description={'Hi, I\'m an ACM student.'}
-                            // imgLink={img1}
+                            // imgLink={img2}
                             // link={links.grahamGH}
                             // linkName={'Link'}
                         // objectFit={'cover'}

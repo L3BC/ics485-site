@@ -64,8 +64,8 @@ const Project = (props) => {
                                     <li>
                                         Created general script for doors
                                         <ul>
-                                            <li>Must fix highlight bug</li>    
-                                        </ul>    
+                                            <li>Must fix highlight bug</li>
+                                        </ul>
                                     </li>
                                 </ul>
                             </li>
@@ -89,7 +89,21 @@ const Project = (props) => {
                         </ul>
                         <hr style={styles.divider} />
                         <h4>Week 3:</h4>
-
+                        <ul>
+                            <li>
+                                Fixed Inventory
+                                <ul>
+                                    <li>Added item selection</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Added Slow down mechanic
+                                <ul>
+                                    <li>Added some obstacles</li>    
+                                </ul>    
+                            </li>
+                            <li>Started working on the map layout</li>
+                        </ul>
                     </div>
                 </Card>
             </Container>
