@@ -242,7 +242,7 @@ const Project = (props) => {
                             </li>
                         </ul>
                         <hr style={styles.divider} />
-                        <h4>Week 6:</h4>
+                        <h4>Week 7:</h4>
                         <ul>
                             <li>
                                 player model and movement animations
