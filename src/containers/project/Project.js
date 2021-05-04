@@ -241,6 +241,18 @@ const Project = (props) => {
                                 </ul>
                             </li>
                         </ul>
+                        <hr style={styles.divider} />
+                        <h4>Week 6:</h4>
+                        <ul>
+                            <li>
+                                player model and movement animations
+                                <ul>
+                                    <li>added FP camera to show player body etc.</li>
+                                </ul>
+                            </li>
+                            <li>Added melee enemy model with movement animations</li>
+                            <li>Integrated enemy field</li>
+                        </ul>
                     </div>
                 </Card>
             </Container>
