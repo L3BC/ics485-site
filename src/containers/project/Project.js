@@ -111,10 +111,135 @@ const Project = (props) => {
                                             <li>Laser</li>
                                             <li>Rotating Blades</li>
                                         </ul>
-                                    </li>    
-                                </ul>    
+                                    </li>
+                                </ul>
                             </li>
                             <li>Started working on the map layout</li>
+                            <li>
+                                <b>Plans for next week</b>
+                                <ul>
+                                    <li>
+                                        <b>Player</b>
+                                        <ul>
+                                            <li>Add sprinting</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <b>Audio</b>
+                                        <ul>
+                                            <li>Add audio manager to the game</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <b>Inventory/Items</b>
+                                        <ul>
+                                            <li>Polish inventory UI</li>
+                                            <li>Add functionality to items</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <b>Time Powers</b>
+                                        <ul>
+                                            <li>Add cooldowns</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <hr style={styles.divider} />
+                        <h4>Week 4:</h4>
+                        <ul>
+                            <li>Added sprinting (shift key)</li>
+                            <li>
+                                <b>Added Audio Manager</b>
+                                <ul>
+                                    <li>Walking sounds</li>
+                                    <li>Running sounds</li>
+                                </ul>
+                            </li>
+                            <li>Added map extension</li>
+                            <li>
+                                <b>Item interaction</b>
+                                <ul>
+                                    <li>Added highlighting to keycard and fuse</li>
+                                    <li>keycard and fuse now pickable and storeable in inventory</li>
+                                </ul>
+                            </li>
+                            <li>Added inventory sprites</li>
+                            <li>Added cooldowns and UI for time travel and slow time</li>
+                            <li>Added door, closet, elvator models</li>
+                            <li>
+                                <b>Plans for next week</b>
+                                <ul>
+                                    <li>Add functionalities to door, locker, elevator</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <hr style={styles.divider} />
+                        <h4>Week 5:</h4>
+                        <ul>
+                            <li>
+                                Obstacle functionalities
+                                <ul>
+                                    <li>
+                                        <b>Door and Locker</b>
+                                        <ul>
+                                            <li>Now open properly</li>
+                                            <li>Could be set as open or closed</li>
+                                            <li>Could now require keycard to open</li>
+                                            <li>Time slow affects open/close speed</li>
+                                            <li>Added sound for doors for open, close and locked</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <b>Elevator</b>
+                                        <ul>
+                                            <li>Now can lift the player up and down</li>
+                                            <li>Could now require fuse to operate</li>
+                                            <li>Time slow affects up/down speed</li>
+                                            <li>Added sound to elevator for up, down, and inoperable</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>Added Main Menu</li>
+                            <li>
+                                <b>Plans for next week</b>
+                                <ul>
+                                    <li>Fix obstacle bugs</li>
+                                    <li>Start finalizing the puzzles</li>
+                                    <li>Add more sounds</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <hr style={styles.divider} />
+                        <h4>Week 6:</h4>
+                        <ul>
+                            <li>Added checkpoint</li>
+                            <li>Incorporated Time Slow to enemies</li>
+                            <li>
+                                Started integrating enemies in Main Game
+                                <ul>
+                                    <li>Added NavMesh in Main Game</li>
+                                </ul>
+                            </li>
+                            <li>Imported Player Animations (Movement)</li>
+                            <li>Added better laser visual for laser obstacle</li>
+                            <li>Added sound to laser</li>
+                            <li>Added time travel delay and sound</li>
+                            <li>Added melee enemy and firing enemy</li>
+                            <li>Bug fixes to doors, elevators, closets</li>
+                            <li>Added enemy field of view script</li>
+                            <li>
+                                <b>Plans for next week</b>
+                                <ul>
+                                    <li>Integrate animations to player</li>
+                                    <li>Import animations for enemies</li>
+                                    <li>Integrate animations to melee enemy</li>
+                                    <li>Integrate animations to ranged enemy</li>
+                                    <li>Add remaining sounds</li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 </Card>
