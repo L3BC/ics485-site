@@ -5,6 +5,8 @@ import Col from 'react-bootstrap/Col';
 import links from '../../assets/urls';
 import ProfileCard from '../../components/card/ProfileCard';
 import img1 from '../../assets/img1.jpg';
+import img2 from '../../assets/img2.jpg';
+import img3 from '../../assets/img3.jpg';
 
 const Members = () => {
     return (
@@ -27,22 +29,19 @@ const Members = () => {
                         <ProfileCard
                             name={'Lana Kawauchi'}
                             description={'Hi, I\'m an ICS student.'}
-                            // imgLink={img1}
+                            imgLink={img2}
                             link={links.LanaGH}
                             linkName={'GitHub'}
-                        // objectFit={'cover'}
-                        // objectPosition={'top'}
+                            objectFit={'cover'}
+                            objectPosition={'top'}
                         />
                     </Col>
                     <Col sm>
                         <ProfileCard
                             name={'Daniel Oka'}
                             description={'Hi, I\'m an ACM student.'}
-                            // imgLink={img2}
-                            // link={links.grahamGH}
-                            // linkName={'Link'}
-                        // objectFit={'cover'}
-                        // objectPosition={'top'}
+                            imgLink={img3}
+                            objectFit={'cover'}
                         />
                     </Col>
                 </Row>

@@ -1,5 +1,5 @@
 const links = {
-    img1: 'data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%' 
+    placeHolder: 'data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%' 
     + '22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%' 
     + '200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%' 
     + '3D%22text%2Fcss%22%3E%23holder_1782e504b7f%20text%20%7B%20fill%3A%23999%3Bfont-weight%' 
