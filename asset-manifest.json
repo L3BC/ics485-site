@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ics485-site/static/css/main.98ae4a29.chunk.css",
-    "main.js": "/ics485-site/static/js/main.c784f5a7.chunk.js",
-    "main.js.map": "/ics485-site/static/js/main.c784f5a7.chunk.js.map",
+    "main.js": "/ics485-site/static/js/main.3b899e0d.chunk.js",
+    "main.js.map": "/ics485-site/static/js/main.3b899e0d.chunk.js.map",
     "runtime-main.js": "/ics485-site/static/js/runtime-main.4b1f0bcd.js",
     "runtime-main.js.map": "/ics485-site/static/js/runtime-main.4b1f0bcd.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/ics485-site/static/css/2.4c97ca4f.chunk.css",
@@ -15,6 +15,8 @@
     "static/css/main.98ae4a29.chunk.css.map": "/ics485-site/static/css/main.98ae4a29.chunk.css.map",
     "static/js/2.0e29dd40.chunk.js.LICENSE.txt": "/ics485-site/static/js/2.0e29dd40.chunk.js.LICENSE.txt",
     "static/media/img1.38ca4972.jpg": "/ics485-site/static/media/img1.38ca4972.jpg",
+    "static/media/img2.5e5721e2.jpg": "/ics485-site/static/media/img2.5e5721e2.jpg",
+    "static/media/img3.0a542373.jpg": "/ics485-site/static/media/img3.0a542373.jpg",
     "static/media/mirro.abd24d3c.jpg": "/ics485-site/static/media/mirro.abd24d3c.jpg",
     "static/media/timetravel.4d055449.jpg": "/ics485-site/static/media/timetravel.4d055449.jpg",
     "static/media/trello.2968078a.jpg": "/ics485-site/static/media/trello.2968078a.jpg"
@@ -24,6 +26,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.0e29dd40.chunk.js",
     "static/css/main.98ae4a29.chunk.css",
-    "static/js/main.c784f5a7.chunk.js"
+    "static/js/main.3b899e0d.chunk.js"
   ]
 }
