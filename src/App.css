@@ -16,6 +16,14 @@ html, body, #root, .App {
   filter: blur(4px);
 }
 
+.appContainer {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
 .gradient {
   margin: auto;
   background: 

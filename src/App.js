@@ -5,15 +5,15 @@ import Container from 'react-bootstrap/Container';
 import Home from './containers/home/Home';
 import Project from './containers/project/Project';
 import Members from './containers/members/Members';
-// import Footer from './components/footer/Footer';
+import Footer from './components/footer/Footer';
 
 import './App.css';
 
 const App = () => {
   return (
-    <div>
+    <div className='appContainer'>
       <NavigationBar/>
-      <Container>
+      <Container style={{flexGrow: 1}}>
         <div style={{marginTop: 25}}>
           <Switch>
             <Route path='/' exact component={Home} />
@@ -22,7 +22,7 @@ const App = () => {
           </Switch>
         </div>
       </Container>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }
