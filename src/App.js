@@ -12,17 +12,15 @@ import './App.css';
 const App = () => {
   return (
     <div className='appContainer'>
-      <NavigationBar/>
-      <Container style={{flexGrow: 1}}>
-        <div style={{marginTop: 25}}>
+      <NavigationBar />
+      <div style={{ flexGrow: 1, marginTop: 25 }}>
           <Switch>
             <Route path='/' exact component={Home} />
             <Route path='/project' component={Project} />
             <Route path='/members' component={Members} />
           </Switch>
-        </div>
-      </Container>
-      <Footer/>
+      </div>
+      <Footer />
     </div>
   );
 }

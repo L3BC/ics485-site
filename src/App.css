@@ -16,11 +16,10 @@ html, body, #root, .App {
   color: #ffffff !important;
 }
 
-@media (max-width: 900px) {
-  .slideShow {
-    width:auto;
-    height:auto;
-  }
+.slideShow {
+  margin: auto;
+  width: 50%;
+  height: auto;
 }
 
 #imageBlur {
@@ -35,6 +34,17 @@ html, body, #root, .App {
   min-height: 100vh;
 }
 
+.homeCarousel {
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+
+.homeFeatures {
+  padding-top: 1%;
+  padding-bottom: 3%;
+  background-color: #000000;
+}
+
 .gradient {
   margin: auto;
   background: 
@@ -42,5 +52,5 @@ html, body, #root, .App {
     rgba(0, 0, 0, 0.75),
     rgba(0, 0, 0, 0.75)
   );
-  width: 50%
+  width: 100%
 }

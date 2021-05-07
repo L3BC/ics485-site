@@ -9,11 +9,12 @@ import game from '../../assets/game.jpg';
 const SlideShow = () => {
     const styles = {
         image: {
-
+            width: '100%',
+            height: 'auto'
         },
         blur: {
             filter: 'blur(2px)'
-        }
+        },
     };
 
     return (
@@ -41,7 +42,7 @@ const SlideShow = () => {
                         src={trello}
                         alt="Second slide"
                     /> */}
-                    <Image style={styles.image, styles.blur} src={trello} alt="Third slide" fluid />
+                    <Image style={{...styles.image, ...styles.blur}} src={trello} alt="Third slide" fluid />
                 </a>
 
                 <Carousel.Caption>
@@ -59,7 +60,7 @@ const SlideShow = () => {
                         src={mirro}
                         alt="Fourth slide"
                     /> */}
-                    <Image style={styles.image, styles.blur} src={mirro} alt="Third slide" fluid />
+                    <Image style={{...styles.image, ...styles.blur}} src={mirro} alt="Third slide" fluid />
                 </a>
 
                 <Carousel.Caption>
