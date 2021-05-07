@@ -255,14 +255,37 @@ const MilestonesCard = (props) => {
                     <hr style={styles.divider} />
                     <h4>Week 7:</h4>
                     <ul>
+                        <li>Completed puzzles</li>
                         <li>
-                            player model and movement animations
+                            Player model and movement animations
                                 <ul>
-                                <li>added FP camera to show player body etc.</li>
+                                <li>Added FP camera to show player body etc.</li>
+                                <li>Added time travel animation.</li>
+                                <li>Added slow time animation.</li>
                             </ul>
                         </li>
+                        <li>Added multiple key cards (red, blue, green)</li>
+                        <li>Doors now require specific colored keycard</li>
+                        <li>Added elevator switch to use elevator from distance</li>
                         <li>Added melee enemy model with movement animations</li>
-                        <li>Integrated enemy field</li>
+                        <li>Added ranged enemy model with movement and attack animations</li>
+                        <li>Integrated enemy field of view</li>
+                        <li>Added decorative models to help distinguish past and present states</li>
+                        <li>Added static models to help distinguish past and present states</li>
+                        <li>Added game completion</li>
+                        <li>
+                            User Interface
+                            <ul>
+                                <li>Added keys and buttons text to UI</li>
+                                <li>
+                                    Added main menu
+                                    <ul>
+                                        <li>Added background music</li>
+                                        <li>Added instructions.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </Tab>
             </Tabs>
