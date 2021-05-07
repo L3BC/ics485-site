@@ -4,6 +4,7 @@ import Image from 'react-bootstrap/Image';
 import trello from '../../assets/trello.jpg';
 import timetravel from '../../assets/timetravel.jpg';
 import mirro from '../../assets/mirro.jpg';
+import game from '../../assets/game.jpg';
 
 const SlideShow = () => {
     const styles = {
@@ -24,7 +25,7 @@ const SlideShow = () => {
                     src={timetravel}
                     alt="Third slide"
                 /> */}
-                <Image style={styles.image} src={timetravel} alt="Third slide" fluid />
+                <Image style={styles.image} src={game} alt="Third slide" fluid />
                 <Carousel.Caption>
                     <div className="gradient">
                         <h3 style={{ paddingTop: 15 }}>Breaking Alpha</h3>

@@ -6,6 +6,9 @@ import Button from 'react-bootstrap/Button';
 
 const NavigationBar = (props) => {
     const styles = {
+        brand: {
+            fontWeight: 'bold'
+        },
         linkWidth: {
             marginLeft: 3,
             marginRight: 3
@@ -29,7 +32,7 @@ const NavigationBar = (props) => {
 
     return (
         <Navbar className='navBar' expand="lg">
-            <Navbar.Brand className='navText'>ICS 485 | ACM 487</Navbar.Brand>
+            <Navbar.Brand className='navText' style={styles.brand}>Last 3 Brain Cells</Navbar.Brand>
             <Navbar.Toggle className='navBarToggle' aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto" style={{marginTop: 8, marginBottom: 8}}>
