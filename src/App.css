@@ -8,8 +8,19 @@ html, body, #root, .App {
   /* background-color: #ffffff; */
 }
 
+.navBarToggle {
+  background-color: #0a97f5 !important;
+}
+
 .navText {
   color: #ffffff !important;
+}
+
+@media (max-width: 900px) {
+  .slideShow {
+    width:auto;
+    height:auto;
+  }
 }
 
 #imageBlur {
@@ -28,8 +39,8 @@ html, body, #root, .App {
   margin: auto;
   background: 
   linear-gradient(
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2)
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.75)
   );
   width: 50%
 }
