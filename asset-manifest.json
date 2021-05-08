@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/ics485-site/static/css/main.898a73b6.chunk.css",
-    "main.js": "/ics485-site/static/js/main.74559d60.chunk.js",
-    "main.js.map": "/ics485-site/static/js/main.74559d60.chunk.js.map",
+    "main.css": "/ics485-site/static/css/main.97c55ec0.chunk.css",
+    "main.js": "/ics485-site/static/js/main.3f86a65a.chunk.js",
+    "main.js.map": "/ics485-site/static/js/main.3f86a65a.chunk.js.map",
     "runtime-main.js": "/ics485-site/static/js/runtime-main.6a577f37.js",
     "runtime-main.js.map": "/ics485-site/static/js/runtime-main.6a577f37.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/ics485-site/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.17439d68.chunk.js": "/ics485-site/static/js/2.17439d68.chunk.js",
-    "static/js/2.17439d68.chunk.js.map": "/ics485-site/static/js/2.17439d68.chunk.js.map",
+    "static/js/2.697ba4ed.chunk.js": "/ics485-site/static/js/2.697ba4ed.chunk.js",
+    "static/js/2.697ba4ed.chunk.js.map": "/ics485-site/static/js/2.697ba4ed.chunk.js.map",
     "static/js/3.e72a391b.chunk.js": "/ics485-site/static/js/3.e72a391b.chunk.js",
     "static/js/3.e72a391b.chunk.js.map": "/ics485-site/static/js/3.e72a391b.chunk.js.map",
     "index.html": "/ics485-site/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/ics485-site/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.898a73b6.chunk.css.map": "/ics485-site/static/css/main.898a73b6.chunk.css.map",
-    "static/js/2.17439d68.chunk.js.LICENSE.txt": "/ics485-site/static/js/2.17439d68.chunk.js.LICENSE.txt",
+    "static/css/main.97c55ec0.chunk.css.map": "/ics485-site/static/css/main.97c55ec0.chunk.css.map",
+    "static/js/2.697ba4ed.chunk.js.LICENSE.txt": "/ics485-site/static/js/2.697ba4ed.chunk.js.LICENSE.txt",
+    "static/media/game.830b5ae1.jpg": "/ics485-site/static/media/game.830b5ae1.jpg",
     "static/media/img1.38ca4972.jpg": "/ics485-site/static/media/img1.38ca4972.jpg",
     "static/media/img2.5e5721e2.jpg": "/ics485-site/static/media/img2.5e5721e2.jpg",
     "static/media/img3.0a542373.jpg": "/ics485-site/static/media/img3.0a542373.jpg",
@@ -24,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.6a577f37.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.17439d68.chunk.js",
-    "static/css/main.898a73b6.chunk.css",
-    "static/js/main.74559d60.chunk.js"
+    "static/js/2.697ba4ed.chunk.js",
+    "static/css/main.97c55ec0.chunk.css",
+    "static/js/main.3f86a65a.chunk.js"
   ]
 }
