@@ -8,11 +8,17 @@ import Col from 'react-bootstrap/Col';
 const Home = (props) => {
     const styles = {
         homeTitleText: {
+            color: '#000000',
             fontWeight: 'bold',
             fontSize: '48px',
             fontFamily: 'monospace'
         },
+        homeTitleBody: {
+            fontSize: '28px',
+        },
+
         homeCarouselText: {
+            color: '#000000',
             fontWeight: 'bold',
             fontSize: '36px',
             textAlign: 'center'
@@ -25,9 +31,9 @@ const Home = (props) => {
             textAlign: 'center',
         },
         homeDescriptionBody: {
+            color: '#000000',
             fontSize: 18,
             fontWeight: 'bold',
-            color: '#000000',
             textAlign: 'justify'
         },
         homeFeaturesTitle: {
@@ -61,7 +67,7 @@ const Home = (props) => {
                         <Col>
                             <h1 style={styles.homeTitleText}>Breaking Alpha</h1>
                             <hr style={styles.divider} />
-                            <p style={{ fontSize: '28px' }}>
+                            <p style={styles.homeTitleBody}>
                                 You find yourself trapped in a run-down lab facility. Although, as you attempt to
                                 escape, you encounter obstacles which are not traversible by normal means as well
                                 as menacing robots who will attack you on sight. However, with your time-manipulating

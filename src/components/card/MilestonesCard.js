@@ -1,6 +1,13 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Figure from 'react-bootstrap/Figure';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import game from '../../assets/game.jpg';
+import m1_1 from '../../assets/milestones/M1_PlayerThirdPerson.png';
+import m1_2 from '../../assets/milestones/M1_FirstPerson.png';
 
 const MilestonesCard = (props) => {
     const styles = {
@@ -13,6 +20,14 @@ const MilestonesCard = (props) => {
         },
         divider: {
             borderTop: '2px solid #bbb'
+        },
+        image: {
+            display: 'block',
+            marginLeft: 'auto',
+            marginRight: 'auto'
+        },
+        caption: {
+            textAlign: 'center'
         }
     }
 
@@ -38,6 +53,43 @@ const MilestonesCard = (props) => {
                         <li>Started implementing time travel or dimension hopping</li>
                         <li>Started running tests on character movement</li>
                     </ul>
+                    <h4 style={{paddingBottom: 10}}>Images</h4>
+                    <Container>
+                        <Row>
+                            <Col className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m1_1}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            The player model in third person, from the scene window
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                            <Col className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m1_2}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            The player in first person, from the game window
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                        </Row>
+                    </Container>
                 </Tab>
                 <Tab eventKey="week2" title="Week 2">
                     <hr style={styles.divider} />
