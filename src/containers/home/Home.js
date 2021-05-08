@@ -1,5 +1,6 @@
 import React from 'react';
 import SlideShow from '../../components/slideShow/SlideShow';
+import VideoFrame from '../../components/videoFrame/VideoFrame';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -8,7 +9,8 @@ const Home = (props) => {
     const styles = {
         homeTitleText: {
             fontWeight: 'bold',
-            fontSize: '48px'
+            fontSize: '48px',
+            fontFamily: 'monospace'
         },
         homeCarouselText: {
             fontWeight: 'bold',
@@ -30,7 +32,7 @@ const Home = (props) => {
         <div>
             <div className="homeMainTitle">
                 <Container>
-                    <Row>
+                    <Row className="row align-items-center">
                         <Col>
                             <h1 style={styles.homeTitleText}>Breaking Alpha</h1>
                             <hr style={styles.divider} />
@@ -41,6 +43,9 @@ const Home = (props) => {
                                 watch, you have <b><i>TIME</i></b> on your side to aid you on your way to freedom.
                             </p>
                         </Col>
+                        <Col>
+                            <VideoFrame videoLink={`v_swG-F0Za0`} />
+                        </Col>
                     </Row>
                 </Container>
             </div>
@@ -49,6 +54,14 @@ const Home = (props) => {
                     <Row>
                         <Col>
                             <h1 style={styles.homeFeaturesText}>Features</h1>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <h3 style={{ color: 'white', textAlign: 'center' }}>Time Travel</h3>
+                        </Col>
+                        <Col>
+                            <h3 style={{ color: 'white', textAlign: 'center' }}>Slow Time</h3>
                         </Col>
                     </Row>
                 </Container>
