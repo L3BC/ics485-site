@@ -30,9 +30,18 @@ const Home = (props) => {
         <div>
             <div className="homeMainTitle">
                 <Container>
-                    <h1 style={styles.homeTitleText}>Breaking Alpha</h1>
-                    <hr style={styles.divider} />
-                    <p style={{ fontSize: '36px' }}>LOL! What is this font!?</p>
+                    <Row>
+                        <Col>
+                            <h1 style={styles.homeTitleText}>Breaking Alpha</h1>
+                            <hr style={styles.divider} />
+                            <p style={{ fontSize: '28px' }}>
+                                You find yourself trapped in a run-down lab facility. Although, as you attempt to
+                                escape, you encounter obstacles which are not traversible by normal means as well
+                                as menacing robots who will attack you on sight. However, with your time-manipulating
+                                watch, you have <b><i>TIME</i></b> on your side to aid you on your way to freedom.
+                            </p>
+                        </Col>
+                    </Row>
                 </Container>
             </div>
             <div className="homeFeatures">
