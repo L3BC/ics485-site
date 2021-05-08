@@ -82,7 +82,7 @@ const Home = (props) => {
                             <p style={styles.homeDescriptionBody}>
                                 Breaking Alpha is an FPS game made in Unity3D. It follows the conventional WASD movement
                                 system employed by other FPS games, with sprinting but without jumping mechanic. It also 
-                                contains an inventory system that allows the player to pick up item in order to interact 
+                                contains an inventory system that allows the player to pick up items in order to interact 
                                 with other objects. In order to achieve the goal of escaping the facility, the player must 
                                 use time-travelling and time-slowing powers to solve puzzles along the way.
                             </p>
