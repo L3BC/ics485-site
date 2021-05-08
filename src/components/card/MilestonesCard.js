@@ -27,6 +27,7 @@ const MilestonesCard = (props) => {
             marginRight: 'auto'
         },
         caption: {
+            color: "#000000",
             textAlign: 'center'
         }
     }
@@ -140,6 +141,43 @@ const MilestonesCard = (props) => {
                             </ul>
                         </li>
                     </ul>
+                    <h4 style={{paddingBottom: 10}}>Images</h4>
+                    <Container>
+                        <Row>
+                            <Col className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m1_1}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            The player model in third person, from the scene window
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                            <Col className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m1_2}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            The player in first person, from the game window
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                        </Row>
+                    </Container>
                 </Tab>
                 <Tab eventKey="week3" title="Week 3">
                     <hr style={styles.divider} />
@@ -201,6 +239,43 @@ const MilestonesCard = (props) => {
                             </ul>
                         </li>
                     </ul>
+                    <h4 style={{paddingBottom: 10}}>Images</h4>
+                    <Container>
+                        <Row>
+                            <Col className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m1_1}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            The player model in third person, from the scene window
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                            <Col className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m1_2}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            The player in first person, from the game window
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                        </Row>
+                    </Container>
                 </Tab>
                 <Tab eventKey="week4" title="Week 4">
                     <hr style={styles.divider} />
@@ -232,6 +307,43 @@ const MilestonesCard = (props) => {
                             </ul>
                         </li>
                     </ul>
+                    <h4 style={{paddingBottom: 10}}>Images</h4>
+                    <Container>
+                        <Row>
+                            <Col className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m1_1}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            The player model in third person, from the scene window
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                            <Col className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m1_2}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            The player in first person, from the game window
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                        </Row>
+                    </Container>
                 </Tab>
                 <Tab eventKey="week5" title="Week 5">
                     <hr style={styles.divider} />
@@ -271,6 +383,43 @@ const MilestonesCard = (props) => {
                             </ul>
                         </li>
                     </ul>
+                    <h4 style={{paddingBottom: 10}}>Images</h4>
+                    <Container>
+                        <Row>
+                            <Col className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m1_1}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            The player model in third person, from the scene window
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                            <Col className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m1_2}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            The player in first person, from the game window
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                        </Row>
+                    </Container>
                 </Tab>
                 <Tab eventKey="week6" title="Week 6">
                     <hr style={styles.divider} />
@@ -302,6 +451,43 @@ const MilestonesCard = (props) => {
                             </ul>
                         </li>
                     </ul>
+                    <h4 style={{paddingBottom: 10}}>Images</h4>
+                    <Container>
+                        <Row>
+                            <Col className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m1_1}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            The player model in third person, from the scene window
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                            <Col className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m1_2}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            The player in first person, from the game window
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                        </Row>
+                    </Container>
                 </Tab>
                 <Tab eventKey="week7" title="Week 7">
                     <hr style={styles.divider} />
@@ -339,6 +525,43 @@ const MilestonesCard = (props) => {
                             </ul>
                         </li>
                     </ul>
+                    <h4 style={{paddingBottom: 10}}>Images</h4>
+                    <Container>
+                        <Row>
+                            <Col className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m1_1}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            The player model in third person, from the scene window
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                            <Col className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m1_2}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            The player in first person, from the game window
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                        </Row>
+                    </Container>
                 </Tab>
             </Tabs>
         </div>
