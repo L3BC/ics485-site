@@ -1,7 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import NavigationBar from './components/navBar/NavigationBar';
-import Container from 'react-bootstrap/Container';
 import Home from './containers/home/Home';
 import Project from './containers/project/Project';
 import Members from './containers/members/Members';

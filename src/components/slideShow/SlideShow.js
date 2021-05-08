@@ -2,7 +2,6 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Image from 'react-bootstrap/Image';
 import trello from '../../assets/trello.jpg';
-import timetravel from '../../assets/timetravel.jpg';
 import mirro from '../../assets/mirro.jpg';
 import game from '../../assets/game.jpg';
 
