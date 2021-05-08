@@ -6,7 +6,7 @@ const VideoFrame = ({ videoLink }) => (
       <iframe
         width="853"
         height="480"
-        src={`https://youtu.be/${videoLink}`}
+        src={`https://youtube.com/embed/${videoLink}`}
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
