@@ -13,6 +13,16 @@ import m2_2 from '../../assets/milestones/M2_Unhighlighted.png';
 import m2_3 from '../../assets/milestones/M2_Highlighted.png';
 import m2_4 from '../../assets/milestones/M2_ItemPlaceholder.png';
 import m2_5 from '../../assets/milestones/M2_StoredItem.png';
+import m3_1 from '../../assets/milestones/M3_Lasers.png';
+import m3_2 from '../../assets/milestones/M3_Blades.png';
+import m4_1 from '../../assets/milestones/M4_DoorsClosets.png';
+import m4_2 from '../../assets/milestones/M4_Elevators.png';
+import m4_3 from '../../assets/milestones/M4_FusesKeyCards.png';
+import m4_4 from '../../assets/milestones/M4_NewUI.png';
+import m5_1 from '../../assets/milestones/M5_Open.png';
+import m5_2 from '../../assets/milestones/M5_ElevatorUp.png';
+import m6_1 from '../../assets/milestones/M6_NewLasers.png';
+import m6_2 from '../../assets/milestones/M6_CharacterAnimations.gif';
 
 const MilestonesCard = (props) => {
     const styles = {
@@ -304,12 +314,12 @@ const MilestonesCard = (props) => {
                                         width={256}
                                         height={144}
                                         alt="171x180"
-                                        src={m2_1}
+                                        src={m3_1}
                                         style={styles.image}
                                     />
                                     <Figure.Caption>
                                         <div style={styles.caption}>
-                                            Box serves as temporary model for key
+                                            Laser obstacles
                                         </div>
                                     </Figure.Caption>
                                 </Figure>
@@ -320,12 +330,12 @@ const MilestonesCard = (props) => {
                                         width={256}
                                         height={144}
                                         alt="171x180"
-                                        src={m2_2}
+                                        src={m3_2}
                                         style={styles.image}
                                     />
                                     <Figure.Caption>
                                         <div style={styles.caption}>
-                                            Key item is stored in inventory after picking it up
+                                            Rotating blade obstacles
                                         </div>
                                     </Figure.Caption>
                                 </Figure>
@@ -374,12 +384,12 @@ const MilestonesCard = (props) => {
                                         width={256}
                                         height={144}
                                         alt="171x180"
-                                        src={m1_1}
+                                        src={m4_1}
                                         style={styles.image}
                                     />
                                     <Figure.Caption>
                                         <div style={styles.caption}>
-                                            The player model in third person, from the scene window
+                                            Wide door, closet, and tall door
                                         </div>
                                     </Figure.Caption>
                                 </Figure>
@@ -390,12 +400,44 @@ const MilestonesCard = (props) => {
                                         width={256}
                                         height={144}
                                         alt="171x180"
-                                        src={m1_2}
+                                        src={m4_2}
                                         style={styles.image}
                                     />
                                     <Figure.Caption>
                                         <div style={styles.caption}>
-                                            The player in first person, from the game window
+                                            Elevator
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                            <Col className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m4_3}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            Fuses (top) and <br/> Key Cards (bottom)
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                            <Col className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m4_4}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            Recolored inventory UI and added power cooldowns
                                         </div>
                                     </Figure.Caption>
                                 </Figure>
@@ -450,12 +492,12 @@ const MilestonesCard = (props) => {
                                         width={256}
                                         height={144}
                                         alt="171x180"
-                                        src={m1_1}
+                                        src={m5_1}
                                         style={styles.image}
                                     />
                                     <Figure.Caption>
                                         <div style={styles.caption}>
-                                            The player model in third person, from the scene window
+                                            Doors and closet are now interactable
                                         </div>
                                     </Figure.Caption>
                                 </Figure>
@@ -466,12 +508,12 @@ const MilestonesCard = (props) => {
                                         width={256}
                                         height={144}
                                         alt="171x180"
-                                        src={m1_2}
+                                        src={m5_2}
                                         style={styles.image}
                                     />
                                     <Figure.Caption>
                                         <div style={styles.caption}>
-                                            The player in first person, from the game window
+                                            Elevators are now interactable
                                         </div>
                                     </Figure.Caption>
                                 </Figure>
@@ -491,6 +533,7 @@ const MilestonesCard = (props) => {
                                 <li>Added NavMesh in Main Game</li>
                             </ul>
                         </li>
+                        <li>Imported Player Model</li>
                         <li>Imported Player Animations (Movement)</li>
                         <li>Added better laser visual for laser obstacle</li>
                         <li>Added sound to laser</li>
@@ -518,12 +561,12 @@ const MilestonesCard = (props) => {
                                         width={256}
                                         height={144}
                                         alt="171x180"
-                                        src={m1_1}
+                                        src={m6_1}
                                         style={styles.image}
                                     />
                                     <Figure.Caption>
                                         <div style={styles.caption}>
-                                            The player model in third person, from the scene window
+                                            New laser visuals
                                         </div>
                                     </Figure.Caption>
                                 </Figure>
@@ -534,12 +577,12 @@ const MilestonesCard = (props) => {
                                         width={256}
                                         height={144}
                                         alt="171x180"
-                                        src={m1_2}
+                                        src={m6_2}
                                         style={styles.image}
                                     />
                                     <Figure.Caption>
                                         <div style={styles.caption}>
-                                            The player in first person, from the game window
+                                            Player movement animations
                                         </div>
                                     </Figure.Caption>
                                 </Figure>
