@@ -57,14 +57,14 @@ const NavigationBar = (props) => {
                     >
                         <Button
                             as={Link} className='navText'
-                            to="/project"
+                            to="/progress"
                             style={{
                                 ...styles.buttons,
                                 fontWeight: activeButton === 1 ? 'bold' : null
                             }}
                             onClick={() => setActiveButton(1)}
                         >
-                            Project
+                            Progress
                         </Button>
                     </Nav.Item>
                     <Nav.Item
