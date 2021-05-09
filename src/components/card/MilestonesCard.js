@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -53,7 +54,17 @@ const MilestonesCard = (props) => {
 
     return (
         <div style={styles.header}>
-            <h2>Milestones</h2>
+            <div style={{display: 'flex', justifyContent: 'space-between'}}>
+                <h2>Milestones</h2>
+                <Button 
+                    href="https://trello.com/b/Qr9F5ue6/lul"
+                    target='_blank'
+                    rel='noreferrer'
+                    type="button"
+                >
+                    <div style={{ fontSize: 20, fontWeight: 'bold' }}>Trello Board</div>
+                </Button>
+            </div>
             <hr style={styles.divider} />
             <Tabs defaultActiveKey="week1" style={{ marginBottom: 10 }}>
                 <Tab eventKey="week1" title="Week 1">
@@ -73,7 +84,7 @@ const MilestonesCard = (props) => {
                         <li>Started implementing time travel or dimension hopping</li>
                         <li>Started running tests on character movement</li>
                     </ul>
-                    <h4 style={{paddingBottom: 10}}>Images</h4>
+                    <h4 style={{ paddingBottom: 10 }}>Images</h4>
                     <Container>
                         <Row className="row align-items-center">
                             <Col className="col d-flex justify-content-center">
@@ -160,7 +171,7 @@ const MilestonesCard = (props) => {
                             </ul>
                         </li>
                     </ul>
-                    <h4 style={{paddingBottom: 10}}>Images</h4>
+                    <h4 style={{ paddingBottom: 10 }}>Images</h4>
                     <Container>
                         <Row>
                             <Col className="col d-flex justify-content-center">
@@ -309,7 +320,7 @@ const MilestonesCard = (props) => {
                             </ul>
                         </li>
                     </ul>
-                    <h4 style={{paddingBottom: 10}}>Images</h4>
+                    <h4 style={{ paddingBottom: 10 }}>Images</h4>
                     <Container>
                         <Row>
                             <Col className="col d-flex justify-content-center">
@@ -379,7 +390,7 @@ const MilestonesCard = (props) => {
                             </ul>
                         </li>
                     </ul>
-                    <h4 style={{paddingBottom: 10}}>Images</h4>
+                    <h4 style={{ paddingBottom: 10 }}>Images</h4>
                     <Container>
                         <Row>
                             <Col className="col d-flex justify-content-center">
@@ -425,7 +436,7 @@ const MilestonesCard = (props) => {
                                     />
                                     <Figure.Caption>
                                         <div style={styles.caption}>
-                                            Fuses (top) and <br/> Key Cards (bottom)
+                                            Fuses (top) and <br /> Key Cards (bottom)
                                         </div>
                                     </Figure.Caption>
                                 </Figure>
@@ -487,7 +498,7 @@ const MilestonesCard = (props) => {
                             </ul>
                         </li>
                     </ul>
-                    <h4 style={{paddingBottom: 10}}>Images</h4>
+                    <h4 style={{ paddingBottom: 10 }}>Images</h4>
                     <Container>
                         <Row>
                             <Col className="col d-flex justify-content-center">
@@ -556,7 +567,7 @@ const MilestonesCard = (props) => {
                             </ul>
                         </li>
                     </ul>
-                    <h4 style={{paddingBottom: 10}}>Images</h4>
+                    <h4 style={{ paddingBottom: 10 }}>Images</h4>
                     <Container>
                         <Row>
                             <Col className="col d-flex justify-content-center">
@@ -646,7 +657,7 @@ const MilestonesCard = (props) => {
                             </ul>
                         </li>
                     </ul>
-                    <h4 style={{paddingBottom: 10}}>Images</h4>
+                    <h4 style={{ paddingBottom: 10 }}>Images</h4>
                     <Container>
                         <Row>
                             <Col className="col d-flex justify-content-center">

@@ -6,11 +6,12 @@ import MilestonesCard from '../../components/card/MilestonesCard';
 const Progress = (props) => {
     const styles = {
         projectTitleText: {
+            textAlign: 'center',
             fontWeight: 'bold',
         }
     }
     return (
-        <div style={{ textAlign: 'center' }}>
+        <div>
             <h1 style={styles.projectTitleText}>Development Progress</h1>
             <div style={{ paddingBottom: 50 }}>
                 <Container>
