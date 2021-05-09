@@ -11,7 +11,7 @@ import img3 from '../../assets/img3.jpg';
 const Members = () => {
     return (
         <div style={{ textAlign: 'center' }}>
-            <h1 style={{ fontWeight: 'bold' }}>Members</h1>
+            <h1 style={{ fontWeight: 'bold' }}>Last 3 Brain Cells</h1>
             <Container>
                 <Row>
                     <Col sm>

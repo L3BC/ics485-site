@@ -64,7 +64,22 @@ const NavigationBar = (props) => {
                             }}
                             onClick={() => setActiveButton(1)}
                         >
-                            Progress
+                            Development
+                        </Button>
+                    </Nav.Item>
+                    <Nav.Item
+                        style={styles.linkWidth}
+                    >
+                        <Button
+                            as={Link} className='navText'
+                            to="/concept"
+                            style={{
+                                ...styles.buttons,
+                                fontWeight: activeButton === 2 ? 'bold' : null
+                            }}
+                            onClick={() => setActiveButton(2)}
+                        >
+                            Concept
                         </Button>
                     </Nav.Item>
                     <Nav.Item
@@ -75,11 +90,11 @@ const NavigationBar = (props) => {
                             to="/members"
                             style={{
                                 ...styles.buttons,
-                                fontWeight: activeButton === 2 ? 'bold' : null
+                                fontWeight: activeButton === 3 ? 'bold' : null
                             }}
-                            onClick={() => setActiveButton(2)}
+                            onClick={() => setActiveButton(3)}
                         >
-                            Members
+                            About
                         </Button>
                     </Nav.Item>
                 </Nav>
