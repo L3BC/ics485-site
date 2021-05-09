@@ -8,6 +8,11 @@ import Tabs from 'react-bootstrap/Tabs';
 import game from '../../assets/game.jpg';
 import m1_1 from '../../assets/milestones/M1_PlayerThirdPerson.png';
 import m1_2 from '../../assets/milestones/M1_FirstPerson.png';
+import m2_1 from '../../assets/milestones/M2_Enemy.png';
+import m2_2 from '../../assets/milestones/M2_Unhighlighted.png';
+import m2_3 from '../../assets/milestones/M2_Highlighted.png';
+import m2_4 from '../../assets/milestones/M2_ItemPlaceholder.png';
+import m2_5 from '../../assets/milestones/M2_StoredItem.png';
 
 const MilestonesCard = (props) => {
     const styles = {
@@ -56,7 +61,7 @@ const MilestonesCard = (props) => {
                     </ul>
                     <h4 style={{paddingBottom: 10}}>Images</h4>
                     <Container>
-                        <Row>
+                        <Row className="row align-items-center">
                             <Col className="col d-flex justify-content-center">
                                 <Figure>
                                     <Figure.Image
@@ -150,7 +155,7 @@ const MilestonesCard = (props) => {
                                         width={256}
                                         height={144}
                                         alt="171x180"
-                                        src={m1_1}
+                                        src={m2_1}
                                         style={styles.image}
                                     />
                                     <Figure.Caption>
@@ -166,12 +171,62 @@ const MilestonesCard = (props) => {
                                         width={256}
                                         height={144}
                                         alt="171x180"
-                                        src={m1_2}
+                                        src={m2_2}
                                         style={styles.image}
                                     />
                                     <Figure.Caption>
                                         <div style={styles.caption}>
-                                            The player in first person, from the game window
+                                            Object unhighligted when not hovered on
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                            <Col className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m2_3}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            Object highligted when hovered on
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col lg={4} className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m2_4}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            Box serves as temporary model for key
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                            <Col lg={4} className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m2_5}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            Key item is stored in inventory after picking it up
                                         </div>
                                     </Figure.Caption>
                                 </Figure>
@@ -207,6 +262,7 @@ const MilestonesCard = (props) => {
                                 </li>
                             </ul>
                         </li>
+                        <li>Added temporary door model</li>
                         <li>Started working on the map layout</li>
                         <li>
                             <b>Plans for next week</b>
@@ -248,12 +304,12 @@ const MilestonesCard = (props) => {
                                         width={256}
                                         height={144}
                                         alt="171x180"
-                                        src={m1_1}
+                                        src={m2_1}
                                         style={styles.image}
                                     />
                                     <Figure.Caption>
                                         <div style={styles.caption}>
-                                            The player model in third person, from the scene window
+                                            Box serves as temporary model for key
                                         </div>
                                     </Figure.Caption>
                                 </Figure>
@@ -264,12 +320,12 @@ const MilestonesCard = (props) => {
                                         width={256}
                                         height={144}
                                         alt="171x180"
-                                        src={m1_2}
+                                        src={m2_2}
                                         style={styles.image}
                                     />
                                     <Figure.Caption>
                                         <div style={styles.caption}>
-                                            The player in first person, from the game window
+                                            Key item is stored in inventory after picking it up
                                         </div>
                                     </Figure.Caption>
                                 </Figure>
@@ -290,9 +346,11 @@ const MilestonesCard = (props) => {
                             </ul>
                         </li>
                         <li>Added map extension</li>
+                        <li>Polished Inventory UI</li>
                         <li>
                             <b>Item interaction</b>
                             <ul>
+                                <li>Added keycard and fuse models</li>
                                 <li>Added highlighting to keycard and fuse</li>
                                 <li>keycard and fuse now pickable and storeable in inventory</li>
                             </ul>
