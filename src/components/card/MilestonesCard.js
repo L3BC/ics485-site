@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/Col';
 import Figure from 'react-bootstrap/Figure';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import game from '../../assets/game.jpg';
 import m1_1 from '../../assets/milestones/M1_PlayerThirdPerson.png';
 import m1_2 from '../../assets/milestones/M1_FirstPerson.png';
 import m2_1 from '../../assets/milestones/M2_Enemy.png';
@@ -22,7 +21,12 @@ import m4_4 from '../../assets/milestones/M4_NewUI.png';
 import m5_1 from '../../assets/milestones/M5_Open.png';
 import m5_2 from '../../assets/milestones/M5_ElevatorUp.png';
 import m6_1 from '../../assets/milestones/M6_NewLasers.png';
-import m6_2 from '../../assets/milestones/M6_CharacterAnimations.gif';
+import m6_2 from '../../assets/milestones/M6_PlayerModel.png';
+import m6_3 from '../../assets/milestones/M6_CharacterAnimations.gif';
+import m7_1 from '../../assets/milestones/M7_Melee.png';
+import m7_2 from '../../assets/milestones/M7_Ranged.png';
+import m7_3 from '../../assets/milestones/M7_TimeTravel.gif';
+import m7_4 from '../../assets/milestones/M7_SlowTime.gif';
 
 const MilestonesCard = (props) => {
     const styles = {
@@ -582,6 +586,22 @@ const MilestonesCard = (props) => {
                                     />
                                     <Figure.Caption>
                                         <div style={styles.caption}>
+                                            Player model in T-pose
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                            <Col className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m6_3}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
                                             Player movement animations
                                         </div>
                                     </Figure.Caption>
@@ -635,12 +655,12 @@ const MilestonesCard = (props) => {
                                         width={256}
                                         height={144}
                                         alt="171x180"
-                                        src={m1_1}
+                                        src={m7_1}
                                         style={styles.image}
                                     />
                                     <Figure.Caption>
                                         <div style={styles.caption}>
-                                            The player model in third person, from the scene window
+                                            Melee Enemy Model
                                         </div>
                                     </Figure.Caption>
                                 </Figure>
@@ -651,12 +671,44 @@ const MilestonesCard = (props) => {
                                         width={256}
                                         height={144}
                                         alt="171x180"
-                                        src={m1_2}
+                                        src={m7_2}
                                         style={styles.image}
                                     />
                                     <Figure.Caption>
                                         <div style={styles.caption}>
-                                            The player in first person, from the game window
+                                            Ranged Enemy Model
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                            <Col className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m7_3}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            Ranged Enemy Model
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                            </Col>
+                            <Col className="col d-flex justify-content-center">
+                                <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={m7_4}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            Ranged Enemy Model
                                         </div>
                                     </Figure.Caption>
                                 </Figure>
