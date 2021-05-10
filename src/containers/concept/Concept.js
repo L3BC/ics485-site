@@ -3,7 +3,16 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Figure from 'react-bootstrap/Figure';
 import Card from 'react-bootstrap/Card';
+import ca_1 from '../../assets/concepts/CA_1.png';
+import ca_2 from '../../assets/concepts/CA_2.png';
+import ca_3 from '../../assets/concepts/CA_3.png';
+import sb_1 from '../../assets/concepts/SB_1.jpg';
+import sb_2 from '../../assets/concepts/SB_2.png';
+import sb_3 from '../../assets/concepts/SB_3.png';
+import sb_4 from '../../assets/concepts/SB_4.jpg';
+import sb_5 from '../../assets/concepts/SB_5.jpg';
 
 const Concept = () => {
     const styles = {
@@ -42,6 +51,24 @@ const Concept = () => {
                                         </Button>
                                     </div>
                                     <hr style={styles.divider} />
+                                    <Row>
+                                        <Col>
+                                        <Figure>
+                                    <Figure.Image
+                                        width={256}
+                                        height={144}
+                                        alt="171x180"
+                                        src={sb_1}
+                                        style={styles.image}
+                                    />
+                                    <Figure.Caption>
+                                        <div style={styles.caption}>
+                                            The player in first person, from the game window
+                                        </div>
+                                    </Figure.Caption>
+                                </Figure>
+                                        </Col>
+                                    </Row>
                                     <h2>Storyboards</h2>
                                     <hr style={styles.divider} />
                                 </Col>
