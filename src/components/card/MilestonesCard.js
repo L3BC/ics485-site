@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Figure from 'react-bootstrap/Figure';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import CaptionedFigure from '../captionedFigure/CaptionedFigure';
 import m1_1 from '../../assets/milestones/M1_PlayerThirdPerson.png';
 import m1_2 from '../../assets/milestones/M1_FirstPerson.png';
 import m2_1 from '../../assets/milestones/M2_Enemy.png';
@@ -54,9 +55,9 @@ const MilestonesCard = (props) => {
 
     return (
         <div style={styles.content}>
-            <div style={{display: 'flex', justifyContent: 'space-between'}}>
+            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                 <h2>Milestones</h2>
-                <Button 
+                <Button
                     href="https://trello.com/b/Qr9F5ue6/lul"
                     target='_blank'
                     rel='noreferrer'
@@ -88,36 +89,14 @@ const MilestonesCard = (props) => {
                     <Container>
                         <Row className="row align-items-center">
                             <Col className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m1_1}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            The player model in third person, from the scene window
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m1_1}>
+                                    The player model in third person, from the scene window
+                                </CaptionedFigure>
                             </Col>
                             <Col className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m1_2}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            The player in first person, from the game window
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m1_2}>
+                                    The player in first person, from the game window
+                                </CaptionedFigure>
                             </Col>
                         </Row>
                     </Container>
@@ -175,86 +154,31 @@ const MilestonesCard = (props) => {
                     <Container>
                         <Row>
                             <Col className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m2_1}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            The player model in third person, from the scene window
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m2_1}>
+                                    The player model in third person, from the scene window
+                                </CaptionedFigure>
                             </Col>
                             <Col className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m2_2}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            Object unhighligted when not hovered on
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m2_2}>
+                                    Object unhighligted when not hovered on
+                                </CaptionedFigure>
                             </Col>
                             <Col className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m2_3}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            Object highligted when hovered on
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m2_3}>
+                                    Object highligted when hovered on
+                                </CaptionedFigure>
                             </Col>
                         </Row>
                         <Row>
                             <Col lg={4} className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m2_4}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            Box serves as temporary model for key
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m2_4}>
+                                    Box serves as temporary model for key
+                                </CaptionedFigure>
                             </Col>
                             <Col lg={4} className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m2_5}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            Key item is stored in inventory after picking it up
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m2_5}>
+                                    Key item is stored in inventory after picking it up
+                                </CaptionedFigure>
                             </Col>
                         </Row>
                     </Container>
@@ -324,36 +248,14 @@ const MilestonesCard = (props) => {
                     <Container>
                         <Row>
                             <Col className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m3_1}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            Laser obstacles
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m3_1}>
+                                    Laser obstacles
+                                </CaptionedFigure>
                             </Col>
                             <Col className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m3_2}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            Rotating blade obstacles
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m3_2}>
+                                    Rotating blade obstacles
+                                </CaptionedFigure>
                             </Col>
                         </Row>
                     </Container>
@@ -394,68 +296,24 @@ const MilestonesCard = (props) => {
                     <Container>
                         <Row>
                             <Col className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m4_1}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            Wide door, closet, and tall door
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m4_1}>
+                                    Wide door, closet, and tall door
+                                </CaptionedFigure>
                             </Col>
                             <Col className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m4_2}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            Elevator
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m4_2}>
+                                    Elevator
+                                </CaptionedFigure>
                             </Col>
                             <Col className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m4_3}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            Fuses (top) and <br /> Key Cards (bottom)
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m4_3}>
+                                    Fuses (top) and <br /> Key Cards (bottom)
+                                </CaptionedFigure>
                             </Col>
                             <Col className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m4_4}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            Recolored inventory UI and added power cooldowns
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m4_4}>
+                                    Recolored inventory UI and added power cooldowns
+                                </CaptionedFigure>
                             </Col>
                         </Row>
                     </Container>
@@ -502,36 +360,14 @@ const MilestonesCard = (props) => {
                     <Container>
                         <Row>
                             <Col className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m5_1}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            Doors and closet are now interactable
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m5_1}>
+                                    Doors and closet are now interactable
+                                </CaptionedFigure>
                             </Col>
                             <Col className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m5_2}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            Elevators are now interactable
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m5_2}>
+                                    Elevators are now interactable
+                                </CaptionedFigure>
                             </Col>
                         </Row>
                     </Container>
@@ -571,52 +407,19 @@ const MilestonesCard = (props) => {
                     <Container>
                         <Row>
                             <Col className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m6_1}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            New laser visuals
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m6_1}>
+                                    New laser visuals
+                                </CaptionedFigure>
                             </Col>
                             <Col className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m6_2}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            Player model in T-pose
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m6_2}>
+                                    Player model in T-pose
+                                </CaptionedFigure>
                             </Col>
                             <Col className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m6_3}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            Player movement animations
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m6_3}>
+                                    Player movement animations
+                                </CaptionedFigure>
                             </Col>
                         </Row>
                     </Container>
@@ -661,68 +464,24 @@ const MilestonesCard = (props) => {
                     <Container>
                         <Row>
                             <Col className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m7_1}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            Melee Enemy Model
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m7_1}>
+                                    Melee Enemy Model
+                                </CaptionedFigure>
                             </Col>
                             <Col className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m7_2}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            Ranged Enemy Model
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m7_2}>
+                                    Ranged Enemy Model
+                                </CaptionedFigure>
                             </Col>
                             <Col className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m7_3}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            Ranged Enemy Model
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m7_3}>
+                                    Time Travel Animation
+                                </CaptionedFigure>
                             </Col>
                             <Col className="col d-flex justify-content-center">
-                                <Figure>
-                                    <Figure.Image
-                                        width={256}
-                                        height={144}
-                                        alt="171x180"
-                                        src={m7_4}
-                                        style={styles.image}
-                                    />
-                                    <Figure.Caption>
-                                        <div style={styles.caption}>
-                                            Ranged Enemy Model
-                                        </div>
-                                    </Figure.Caption>
-                                </Figure>
+                                <CaptionedFigure src={m7_4}>
+                                    Slow Time Animation
+                                </CaptionedFigure>
                             </Col>
                         </Row>
                     </Container>
