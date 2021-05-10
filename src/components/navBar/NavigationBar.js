@@ -72,7 +72,7 @@ const NavigationBar = (props) => {
                     >
                         <Button
                             as={Link} className='navText'
-                            to="/concept"
+                            to="/images"
                             style={{
                                 ...styles.buttons,
                                 fontWeight: activeButton === 2 ? 'bold' : null
