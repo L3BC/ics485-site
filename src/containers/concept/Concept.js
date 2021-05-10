@@ -152,7 +152,7 @@ const Concept = () => {
                                             />
                                             <Figure.Caption>
                                                 <div style={styles.caption}>
-                                                    The player model in Maya
+                                                    First initial story board for a level. Initially, the game was supposed to have sequential levels.
                                                 </div>
                                             </Figure.Caption>
                                         </Figure>
@@ -168,7 +168,7 @@ const Concept = () => {
                                             />
                                             <Figure.Caption>
                                                 <div style={styles.caption}>
-                                                    The time-manipulating watch
+                                                    How the time travel works: teleport the player to a similar place on the z-axis, based on an offset
                                                 </div>
                                             </Figure.Caption>
                                         </Figure>
@@ -184,7 +184,7 @@ const Concept = () => {
                                             />
                                             <Figure.Caption>
                                                 <div style={styles.caption}>
-                                                    Early concept for the melee enemy
+                                                    How time travel should help: if door is locked in present, it may be open in the past
                                                 </div>
                                             </Figure.Caption>
                                         </Figure>
@@ -200,7 +200,7 @@ const Concept = () => {
                                             />
                                             <Figure.Caption>
                                                 <div style={styles.caption}>
-                                                    Early concept for the melee enemy
+                                                    A sketch for one room: enemies guarding keycard
                                                 </div>
                                             </Figure.Caption>
                                         </Figure>
@@ -218,7 +218,7 @@ const Concept = () => {
                                             />
                                             <Figure.Caption>
                                                 <div style={styles.caption}>
-                                                    Early concept for the melee enemy
+                                                    The main hall in the game
                                                 </div>
                                             </Figure.Caption>
                                         </Figure>
@@ -234,7 +234,7 @@ const Concept = () => {
                                             />
                                             <Figure.Caption>
                                                 <div style={styles.caption}>
-                                                    Early concept for the melee enemy
+                                                    Another room adjacent to the main hall
                                                 </div>
                                             </Figure.Caption>
                                         </Figure>
@@ -250,7 +250,7 @@ const Concept = () => {
                                             />
                                             <Figure.Caption>
                                                 <div style={styles.caption}>
-                                                    Early concept for the melee enemy
+                                                    Hall next to the starting point of the game
                                                 </div>
                                             </Figure.Caption>
                                         </Figure>
