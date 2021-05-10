@@ -141,7 +141,7 @@ const Concept = () => {
                                     </Col>
                                 </Row>
                                 <Row className="row align-items-center">
-                                    <Col className="col d-flex justify-content-center">
+                                    <Col lg={3} className="col d-flex justify-content-center">
                                         <Figure>
                                             <Figure.Image
                                                 width={256}
@@ -157,7 +157,7 @@ const Concept = () => {
                                             </Figure.Caption>
                                         </Figure>
                                     </Col>
-                                    <Col className="col d-flex justify-content-center">
+                                    <Col lg={3} className="col d-flex justify-content-center">
                                         <Figure>
                                             <Figure.Image
                                                 width={256}
@@ -173,13 +173,79 @@ const Concept = () => {
                                             </Figure.Caption>
                                         </Figure>
                                     </Col>
-                                    <Col className="col d-flex justify-content-center">
+                                    <Col lg={3} className="col d-flex justify-content-center">
                                         <Figure>
                                             <Figure.Image
                                                 width={256}
                                                 height={144}
                                                 alt="171x180"
                                                 src={sb_1}
+                                                style={styles.image}
+                                            />
+                                            <Figure.Caption>
+                                                <div style={styles.caption}>
+                                                    Early concept for the melee enemy
+                                                </div>
+                                            </Figure.Caption>
+                                        </Figure>
+                                    </Col>
+                                    <Col lg={3} className="col d-flex justify-content-center">
+                                        <Figure>
+                                            <Figure.Image
+                                                width={256}
+                                                height={144}
+                                                alt="171x180"
+                                                src={sb_4}
+                                                style={styles.image}
+                                            />
+                                            <Figure.Caption>
+                                                <div style={styles.caption}>
+                                                    Early concept for the melee enemy
+                                                </div>
+                                            </Figure.Caption>
+                                        </Figure>
+                                    </Col>
+                                </Row>
+                                <Row>
+                                    <Col lg={3} className="col d-flex justify-content-center">
+                                        <Figure>
+                                            <Figure.Image
+                                                width={256}
+                                                height={144}
+                                                alt="171x180"
+                                                src={sb_5}
+                                                style={styles.image}
+                                            />
+                                            <Figure.Caption>
+                                                <div style={styles.caption}>
+                                                    Early concept for the melee enemy
+                                                </div>
+                                            </Figure.Caption>
+                                        </Figure>
+                                    </Col>
+                                    <Col lg={3} className="col d-flex justify-content-center">
+                                        <Figure>
+                                            <Figure.Image
+                                                width={256}
+                                                height={144}
+                                                alt="171x180"
+                                                src={sb_6}
+                                                style={styles.image}
+                                            />
+                                            <Figure.Caption>
+                                                <div style={styles.caption}>
+                                                    Early concept for the melee enemy
+                                                </div>
+                                            </Figure.Caption>
+                                        </Figure>
+                                    </Col>
+                                    <Col lg={3} className="col d-flex justify-content-center">
+                                        <Figure>
+                                            <Figure.Image
+                                                width={256}
+                                                height={144}
+                                                alt="171x180"
+                                                src={sb_7}
                                                 style={styles.image}
                                             />
                                             <Figure.Caption>
