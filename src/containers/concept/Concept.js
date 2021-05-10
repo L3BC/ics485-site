@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Figure from 'react-bootstrap/Figure';
 import Card from 'react-bootstrap/Card';
+import CaptionedFigure from '../../components/captionedFigure/CaptionedFigure';
 import ca_1 from '../../assets/concepts/CA_1.png';
 import ca_2 from '../../assets/concepts/CA_2.png';
 import ca_3 from '../../assets/concepts/CA_3.png';
@@ -68,70 +69,26 @@ const Concept = () => {
                                 </Row>
                                 <Row>
                                     <Col className="col d-flex justify-content-center">
-                                        <Figure>
-                                            <Figure.Image
-                                                width={256}
-                                                height={144}
-                                                alt="171x180"
-                                                src={ca_1}
-                                                style={styles.image}
-                                            />
-                                            <Figure.Caption>
-                                                <div style={styles.caption}>
-                                                    The player model in Maya
-                                                </div>
-                                            </Figure.Caption>
-                                        </Figure>
+                                        <CaptionedFigure src={ca_1}>
+                                            The player model in Maya
+                                        </CaptionedFigure>
                                     </Col>
                                     <Col className="col d-flex justify-content-center">
-                                        <Figure>
-                                            <Figure.Image
-                                                width={256}
-                                                height={144}
-                                                alt="171x180"
-                                                src={ca_2}
-                                                style={styles.image}
-                                            />
-                                            <Figure.Caption>
-                                                <div style={styles.caption}>
-                                                    The time-manipulating watch
-                                                </div>
-                                            </Figure.Caption>
-                                        </Figure>
+                                        <CaptionedFigure src={ca_2}>
+                                            The time-manipulating watch
+                                        </CaptionedFigure>
                                     </Col>
                                     <Col className="col d-flex justify-content-center">
-                                        <Figure>
-                                            <Figure.Image
-                                                width={256}
-                                                height={144}
-                                                alt="171x180"
-                                                src={ca_4}
-                                                style={styles.image}
-                                            />
-                                            <Figure.Caption>
-                                                <div style={styles.caption}>
-                                                    Early concept for the melee enemy
-                                                </div>
-                                            </Figure.Caption>
-                                        </Figure>
+                                        <CaptionedFigure src={ca_4}>
+                                            Early concept for the melee enemy
+                                        </CaptionedFigure>
                                     </Col>
                                 </Row>
                                 <Row>
                                     <Col lg={4} className="col d-flex justify-content-center">
-                                        <Figure>
-                                            <Figure.Image
-                                                width={256}
-                                                height={144}
-                                                alt="171x180"
-                                                src={ca_3}
-                                                style={styles.image}
-                                            />
-                                            <Figure.Caption>
-                                                <div style={styles.caption}>
-                                                    Taking animations from Mixamo for the melee enemy to use
-                                                </div>
-                                            </Figure.Caption>
-                                        </Figure>
+                                        <CaptionedFigure src={ca_3}>
+                                            Taking animations from Mixamo for the melee enemy to use
+                                        </CaptionedFigure>
                                     </Col>
                                 </Row>
                                 <Row className="row align-items-center">
@@ -142,118 +99,41 @@ const Concept = () => {
                                 </Row>
                                 <Row className="row align-items-center">
                                     <Col lg={3} className="col d-flex justify-content-center">
-                                        <Figure>
-                                            <Figure.Image
-                                                width={256}
-                                                height={144}
-                                                alt="171x180"
-                                                src={sb_2}
-                                                style={styles.image}
-                                            />
-                                            <Figure.Caption>
-                                                <div style={styles.caption}>
-                                                    First initial story board for a level. Initially, the game was supposed to have sequential levels.
-                                                </div>
-                                            </Figure.Caption>
-                                        </Figure>
+                                        <CaptionedFigure src={sb_2}>
+                                            First initial story board for a level. Initially, the game was supposed to have sequential levels.
+                                        </CaptionedFigure>
                                     </Col>
                                     <Col lg={3} className="col d-flex justify-content-center">
-                                        <Figure>
-                                            <Figure.Image
-                                                width={256}
-                                                height={144}
-                                                alt="171x180"
-                                                src={sb_3}
-                                                style={styles.image}
-                                            />
-                                            <Figure.Caption>
-                                                <div style={styles.caption}>
-                                                    How the time travel works: teleport the player to a similar place on the z-axis, based on an offset
-                                                </div>
-                                            </Figure.Caption>
-                                        </Figure>
+                                        <CaptionedFigure src={sb_3}>
+                                            How the time travel works: teleport the player to a similar place on the z-axis, based on an offset
+                                        </CaptionedFigure>
                                     </Col>
                                     <Col lg={3} className="col d-flex justify-content-center">
-                                        <Figure>
-                                            <Figure.Image
-                                                width={256}
-                                                height={144}
-                                                alt="171x180"
-                                                src={sb_1}
-                                                style={styles.image}
-                                            />
-                                            <Figure.Caption>
-                                                <div style={styles.caption}>
-                                                    How time travel should help: if door is locked in present, it may be open in the past
-                                                </div>
-                                            </Figure.Caption>
-                                        </Figure>
+                                        <CaptionedFigure src={sb_1}>
+                                            How time travel should help: if door is locked in present, it may be open in the past
+                                        </CaptionedFigure>
                                     </Col>
                                     <Col lg={3} className="col d-flex justify-content-center">
-                                        <Figure>
-                                            <Figure.Image
-                                                width={256}
-                                                height={144}
-                                                alt="171x180"
-                                                src={sb_4}
-                                                style={styles.image}
-                                            />
-                                            <Figure.Caption>
-                                                <div style={styles.caption}>
-                                                    A sketch for one room: enemies guarding keycard
-                                                </div>
-                                            </Figure.Caption>
-                                        </Figure>
+                                        <CaptionedFigure src={sb_4}>
+                                            A sketch for one room: enemies guarding keycard
+                                        </CaptionedFigure>
                                     </Col>
                                 </Row>
                                 <Row>
                                     <Col lg={3} className="col d-flex justify-content-center">
-                                        <Figure>
-                                            <Figure.Image
-                                                width={256}
-                                                height={144}
-                                                alt="171x180"
-                                                src={sb_5}
-                                                style={styles.image}
-                                            />
-                                            <Figure.Caption>
-                                                <div style={styles.caption}>
-                                                    The main hall in the game
-                                                </div>
-                                            </Figure.Caption>
-                                        </Figure>
+                                        <CaptionedFigure src={sb_5}>
+                                            The main hall in the game
+                                        </CaptionedFigure>
                                     </Col>
                                     <Col lg={3} className="col d-flex justify-content-center">
-                                        <Figure>
-                                            <Figure.Image
-                                                width={256}
-                                                height={144}
-                                                alt="171x180"
-                                                src={sb_6}
-                                                style={styles.image}
-                                            />
-                                            <Figure.Caption>
-                                                <div style={styles.caption}>
-                                                    Another room adjacent to the main hall
-                                                </div>
-                                            </Figure.Caption>
-                                        </Figure>
+                                        <CaptionedFigure src={sb_6}>
+                                            Another room adjacent to the main hall
+                                        </CaptionedFigure>
                                     </Col>
                                     <Col lg={3} className="col d-flex justify-content-center">
-                                        <Figure>
-                                            <Figure.Image
-                                                width={256}
-                                                height={144}
-                                                alt="171x180"
-                                                src={sb_7}
-                                                style={styles.image}
-                                            />
-                                            <Figure.Caption>
-                                                <div style={styles.caption}>
-                                                    Hall next to the starting point of the game
-                                                </div>
-                                            </Figure.Caption>
-                                        </Figure>
+                                        <CaptionedFigure src={sb_7}>
+                                            Hall next to the starting point of the game
+                                        </CaptionedFigure>
                                     </Col>
                                 </Row>
                                 <Row className="row align-items-center">
