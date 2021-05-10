@@ -256,6 +256,12 @@ const Concept = () => {
                                         </Figure>
                                     </Col>
                                 </Row>
+                                <Row className="row align-items-center">
+                                    <Col>
+                                        <h2>Game Screenshots</h2>
+                                        <hr style={styles.divider} />
+                                    </Col>
+                                </Row>
                             </div>
                         </div>
                     </Card>
