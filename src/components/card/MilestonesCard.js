@@ -31,7 +31,7 @@ import m7_4 from '../../assets/milestones/M7_SlowTime.gif';
 
 const MilestonesCard = (props) => {
     const styles = {
-        header: {
+        content: {
             textAlign: 'left',
             marginLeft: 50,
             marginRight: 50,
@@ -53,7 +53,7 @@ const MilestonesCard = (props) => {
     }
 
     return (
-        <div style={styles.header}>
+        <div style={styles.content}>
             <div style={{display: 'flex', justifyContent: 'space-between'}}>
                 <h2>Milestones</h2>
                 <Button 

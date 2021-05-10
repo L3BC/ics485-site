@@ -79,7 +79,7 @@ const NavigationBar = (props) => {
                             }}
                             onClick={() => setActiveButton(2)}
                         >
-                            Concept
+                            Images
                         </Button>
                     </Nav.Item>
                     <Nav.Item
