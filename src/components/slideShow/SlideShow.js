@@ -19,13 +19,9 @@ const SlideShow = () => {
     return (
         <Carousel className='slideShow'>
             <Carousel.Item>
-                {/* <img
-                    className="d-block w-100"
-                    id={'imageBlur'}
-                    src={timetravel}
-                    alt="Third slide"
-                /> */}
-                <Image style={styles.image} src={game} alt="Third slide" fluid />
+                <a href={'https://gbfrancisco.itch.io/breaking-alpha'} target='_blank' rel="noopener noreferrer">
+                    <Image style={styles.image} src={game} alt="Third slide" fluid />
+                </a>
                 <Carousel.Caption>
                     <div className="gradient">
                         <h3 style={{ paddingTop: 15 }}>Breaking Alpha</h3>
@@ -35,13 +31,7 @@ const SlideShow = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <a href={'https://trello.com/b/Qr9F5ue6/lul'} target='_blank' rel="noopener noreferrer">
-                    {/* <img
-                        className="d-block w-100"
-                        id={'imageBlur'}
-                        src={trello}
-                        alt="Second slide"
-                    /> */}
-                    <Image style={{...styles.image, ...styles.blur}} src={trello} alt="Third slide" fluid />
+                    <Image style={{ ...styles.image, ...styles.blur }} src={trello} alt="Third slide" fluid />
                 </a>
 
                 <Carousel.Caption>
@@ -53,18 +43,12 @@ const SlideShow = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <a href={'https://miro.com/app/board/o9J_lTS7J4o=/'} target='_blank' rel="noopener noreferrer">
-                    {/* <img
-                        className="d-block w-100"
-                        id={'imageBlur'}
-                        src={mirro}
-                        alt="Fourth slide"
-                    /> */}
-                    <Image style={{...styles.image, ...styles.blur}} src={mirro} alt="Third slide" fluid />
+                    <Image style={{ ...styles.image, ...styles.blur }} src={mirro} alt="Third slide" fluid />
                 </a>
 
                 <Carousel.Caption>
                     <div className="gradient">
-                        <h3 style={{ paddingTop: 15}}>Storyboard</h3>
+                        <h3 style={{ paddingTop: 15 }}>Storyboard</h3>
                         <p
                             style={{
                                 paddingBottom: 15,

@@ -22,7 +22,8 @@ const Footer = () => {
                             <h6>Last 3 Brain Cells:</h6>
                             <a
                                 style={{ color: '#ffffff' }}
-                                href="https://trello.com/b/Qr9F5ue6/lul"
+                                href={links.grahamPortfolio}
+                                target='_blank'
                                 rel="noopener noreferrer"
                             >
                                 Graham Francisco
@@ -30,13 +31,14 @@ const Footer = () => {
                             <br />
                             <a
                                 style={{ color: '#ffffff' }}
-                                href="https://trello.com/b/Qr9F5ue6/lul"
+                                href={links.LanaPortfolio}
+                                target='_blank'
                                 rel="noopener noreferrer"
                             >
                                 Lana Kawauchi
                             </a>
                             <br />
-                            Daniel Oka
+                                Daniel Oka
                             <br />
                         </div>
                     </Col>
@@ -45,21 +47,26 @@ const Footer = () => {
                             <h6>Links:</h6>
                             <a
                                 style={{ color: '#ffffff' }}
+                                href="https://gbfrancisco.itch.io/breaking-alpha"
+                                target='_blank'
+                                rel="noopener noreferrer"
                             >
                                 Play the game (Itch.io)
                             </a>
                             <br />
                             <a
                                 style={{ color: '#ffffff' }}
-                                href={links.grahamPortfolio}
+                                href="https://trello.com/b/Qr9F5ue6/lul"
+                                target='_blank'
                                 rel="noopener noreferrer"
-                                >
+                            >
                                 Check development (Trello)
                             </a>
                             <br />
                             <a
                                 style={{ color: '#ffffff' }}
-                                href={links.LanaPortfolio}
+                                href="https://miro.com/app/board/o9J_lTS7J4o=/"
+                                target='_blank'
                                 rel="noopener noreferrer"
                             >
                                 Check brainstorming (Mirro)
