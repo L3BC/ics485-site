@@ -16,6 +16,7 @@ import sb_4 from '../../assets/concepts/SB_4.jpg';
 import sb_5 from '../../assets/concepts/SB_5.jpg';
 import sb_6 from '../../assets/concepts/SB_6.jpg';
 import sb_7 from '../../assets/concepts/SB_7.jpg';
+import sb_8 from '../../assets/concepts/SB_8.png';
 
 const Concept = () => {
     const styles = {
@@ -113,12 +114,18 @@ const Concept = () => {
                                         </CaptionedFigure>
                                     </Col>
                                     <Col lg={3} className="col d-flex justify-content-center">
-                                        <CaptionedFigure src={sb_4}>
-                                            A sketch for one room: enemies guarding keycard
+                                        <CaptionedFigure src={sb_8}>
+                                            Initial floor plan on the second part of the level. White lines: walls, Blue dots: open doors, 
+                                            Yellow dots: locked doors, Red areas: rooms.
                                         </CaptionedFigure>
                                     </Col>
                                 </Row>
                                 <Row>
+                                    <Col lg={3} className="col d-flex justify-content-center">
+                                        <CaptionedFigure src={sb_4}>
+                                            A sketch for one room: enemies guarding keycard
+                                        </CaptionedFigure>
+                                    </Col>
                                     <Col lg={3} className="col d-flex justify-content-center">
                                         <CaptionedFigure src={sb_5}>
                                             The main hall in the game
