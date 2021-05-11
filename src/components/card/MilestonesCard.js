@@ -59,7 +59,7 @@ const MilestonesCard = (props) => {
                 <Button
                     href="https://trello.com/b/Qr9F5ue6/lul"
                     target='_blank'
-                    rel='noreferrer'
+                    rel="noopener noreferrer"
                     type="button"
                 >
                     <div style={{ fontSize: 20, fontWeight: 'bold' }}>Trello Board</div>

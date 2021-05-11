@@ -57,7 +57,7 @@ const Concept = () => {
                                             <Button
                                                 href="https://miro.com/app/board/o9J_lTS7J4o=/"
                                                 target='_blank'
-                                                rel='noreferrer'
+                                                rel="noopener noreferrer"
                                                 type="button"
                                             >
                                                 <div style={{ fontSize: 20, fontWeight: 'bold' }}>Mirro Board</div>

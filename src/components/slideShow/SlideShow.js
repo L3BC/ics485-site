@@ -34,7 +34,7 @@ const SlideShow = () => {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <a href={'https://trello.com/b/Qr9F5ue6/lul'} target='_blank' rel='noreferrer'>
+                <a href={'https://trello.com/b/Qr9F5ue6/lul'} target='_blank' rel="noopener noreferrer">
                     {/* <img
                         className="d-block w-100"
                         id={'imageBlur'}
@@ -52,7 +52,7 @@ const SlideShow = () => {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <a href={'https://miro.com/app/board/o9J_lTS7J4o=/'} target='_blank' rel='noreferrer'>
+                <a href={'https://miro.com/app/board/o9J_lTS7J4o=/'} target='_blank' rel="noopener noreferrer">
                     {/* <img
                         className="d-block w-100"
                         id={'imageBlur'}
