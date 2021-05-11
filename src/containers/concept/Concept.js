@@ -17,6 +17,14 @@ import sb_5 from '../../assets/concepts/SB_5.jpg';
 import sb_6 from '../../assets/concepts/SB_6.jpg';
 import sb_7 from '../../assets/concepts/SB_7.jpg';
 import sb_8 from '../../assets/concepts/SB_8.png';
+import fi_1 from '../../assets/concepts/FI_1.png';
+import fi_2 from '../../assets/concepts/FI_2.png';
+import fi_3 from '../../assets/concepts/FI_3.png';
+import fi_6 from '../../assets/concepts/FI_6.png';
+import fi_7 from '../../assets/concepts/FI_7.png';
+import fi_9 from '../../assets/concepts/FI_9.png';
+import fi_10 from '../../assets/concepts/FI_10.png';
+import fi_11 from '../../assets/concepts/FI_11.png';
 
 const Concept = () => {
     const styles = {
@@ -115,7 +123,7 @@ const Concept = () => {
                                     </Col>
                                     <Col lg={3} className="col d-flex justify-content-center">
                                         <CaptionedFigure src={sb_8}>
-                                            Initial floor plan on the second part of the level. White lines: walls, Blue dots: open doors, 
+                                            Initial floor plan on the second part of the level. White lines: walls, Blue dots: open doors,
                                             Yellow dots: locked doors, Red areas: rooms.
                                         </CaptionedFigure>
                                     </Col>
@@ -146,6 +154,50 @@ const Concept = () => {
                                     <Col>
                                         <h2>Game Screenshots</h2>
                                         <hr style={styles.divider} />
+                                    </Col>
+                                </Row>
+                                <Row>
+                                    <Col lg={3} className="col d-flex justify-content-center">
+                                        <CaptionedFigure src={fi_1}>
+                                            Main game screen
+                                        </CaptionedFigure>
+                                    </Col>
+                                    <Col lg={3} className="col d-flex justify-content-center">
+                                        <CaptionedFigure src={fi_2}>
+                                            Melee enemy chasing after the player
+                                        </CaptionedFigure>
+                                    </Col>
+                                    <Col lg={3} className="col d-flex justify-content-center">
+                                        <CaptionedFigure src={fi_3}>
+                                            Fuse item inside a locker
+                                        </CaptionedFigure>
+                                    </Col>
+                                    <Col lg={3} className="col d-flex justify-content-center">
+                                        <CaptionedFigure src={fi_9}>
+                                            Ranged enemy shooting at the player
+                                        </CaptionedFigure>
+                                    </Col>
+                                </Row>
+                                <Row>
+                                    <Col lg={3} className="col d-flex justify-content-center">
+                                        <CaptionedFigure src={fi_6}>
+                                            Present facility
+                                        </CaptionedFigure>
+                                    </Col>
+                                    <Col lg={3} className="col d-flex justify-content-center">
+                                        <CaptionedFigure src={fi_7}>
+                                            Past facility
+                                        </CaptionedFigure>
+                                    </Col>
+                                    <Col lg={3} className="col d-flex justify-content-center">
+                                        <CaptionedFigure src={fi_10}>
+                                            Rotating blade and laser room
+                                        </CaptionedFigure>
+                                    </Col>
+                                    <Col lg={3} className="col d-flex justify-content-center">
+                                        <CaptionedFigure src={fi_11}>
+                                            Showdown with a ranged enemy
+                                        </CaptionedFigure>
                                     </Col>
                                 </Row>
                             </div>
