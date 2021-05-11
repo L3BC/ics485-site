@@ -19,8 +19,8 @@ const Members = () => {
                             name={'Graham Francisco'}
                             description={'Hi, I\'m an ICS student.'}
                             imgLink={img1}
-                            link={links.grahamGH}
-                            linkName={'GitHub'}
+                            github={links.grahamGH}
+                            portfolio={links.grahamPortfolio}
                             objectFit={'cover'}
                             objectPosition={'top'}
                         />
@@ -30,8 +30,8 @@ const Members = () => {
                             name={'Lana Kawauchi'}
                             description={'Hi, I\'m an ICS student.'}
                             imgLink={img2}
-                            link={links.LanaGH}
-                            linkName={'GitHub'}
+                            github={links.LanaGH}
+                            portfolio={links.LanaPortfolio}
                             objectFit={'cover'}
                             objectPosition={'top'}
                         />
