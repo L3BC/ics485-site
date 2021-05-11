@@ -69,7 +69,7 @@ const Home = (props) => {
                             <hr style={styles.divider} />
                             <p style={styles.homeTitleBody}>
                                 You find yourself trapped in a run-down lab facility. Although, as you attempt to
-                                escape, you encounter obstacles which are not traversible by normal means as well
+                                escape, you encounter obstacles which are not traversable by normal means as well
                                 as menacing robots who will attack you on sight. However, with your time-manipulating
                                 watch, you have <b><i>TIME</i></b> on your side to aid you on your way to freedom.
                             </p>
