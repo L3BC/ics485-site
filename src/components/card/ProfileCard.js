@@ -19,7 +19,7 @@ const ProfileCard = (props) => {
                 <Card.Text>{props.description}</Card.Text>
             </Card.Body>
             <Card.Footer style={{ height: 50, textAlign: 'left' }}>
-                <Card.Link target='_blank' href={props.link} style={{ cursor: 'pointer' }}>
+                <Card.Link target='_blank' href={props.link} style={{ cursor: 'pointer' }} rel="noopener noreferrer">
                     {props.linkName}
                 </Card.Link>
             </Card.Footer>
