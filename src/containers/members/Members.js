@@ -54,7 +54,10 @@ const Members = () => {
                             imgLink={img3}
                             objectFit={'cover'}
                         >
-                            Hi, I'm an ACM student.
+                            I am a senior at UH Manoa working in 3D animation. I worked on asset 
+                            development and level design aspects of the game. I also led the creative 
+                            side of things designing puzzles and figuring out mechanics. This is my first 
+                            time working with a group of programmers on a game project.
                         </ProfileCard>
                     </Col>
                 </Row>
