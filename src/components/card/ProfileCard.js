@@ -12,11 +12,13 @@ const ProfileCard = (props) => {
     }
 
     return (
-        <Card style={{border: 0, marginBottom: 20}}>
-            <Card.Img variant='top' src={props.imgLink} style={styles.cardImg}/>
-            <Card.Body style={{height: 125}}>
-                <Card.Title style={{fontWeight: 'bold'}}>{props.name}</Card.Title>
-                <Card.Text>{props.description}</Card.Text>
+        <Card style={{ border: 0, marginBottom: 20 }}>
+            <Card.Img variant='top' src={props.imgLink} style={styles.cardImg} />
+            <Card.Body style={{minHeight: 316}}>
+                <Card.Title style={{ fontWeight: 'bold' }}>{props.name}</Card.Title>
+                <Card.Text>
+                    {props.children}
+                </Card.Text>
             </Card.Body>
             <Card.Footer style={{ height: 50, textAlign: 'left' }}>
                 <Card.Link target='_blank' href={props.github} style={{ cursor: 'pointer' }} rel="noopener noreferrer">

@@ -17,32 +17,45 @@ const Members = () => {
                     <Col sm>
                         <ProfileCard
                             name={'Graham Francisco'}
-                            description={'Hi, I\'m an ICS student.'}
                             imgLink={img1}
                             github={links.grahamGH}
                             portfolio={links.grahamPortfolio}
                             objectFit={'cover'}
                             objectPosition={'top'}
-                        />
+                        >
+                            I am a senior studying for a B.S. in Computer Science in the
+                            Department of Information and Computer Sciences at the University
+                            of Hawaii. I love creating various kinds of software, from web apps 
+                            to video games. I love the problem solving aspect of software engineering 
+                            as it challenges me to be more creative. As such, I find developing 
+                            video games a good way to work my technical skills and creativity.
+                        </ProfileCard>
                     </Col>
                     <Col sm>
                         <ProfileCard
                             name={'Lana Kawauchi'}
-                            description={'Hi, I\'m an ICS student.'}
                             imgLink={img2}
                             github={links.LanaGH}
                             portfolio={links.LanaPortfolio}
                             objectFit={'cover'}
                             objectPosition={'top'}
-                        />
+                        >
+                            I am senior at the University of Hawaii currently pursuing my BS in 
+                            Computer Science and a certificate in Creative Computational Media. 
+                            I have a passion for video games and love the process of creating them, 
+                            whether it’s coding the functionality or creating assets. I hope to one 
+                            day create my own video game by myself from scratch like Stardew Valley 
+                            or Undertale.
+                        </ProfileCard>
                     </Col>
                     <Col sm>
                         <ProfileCard
                             name={'Daniel Oka'}
-                            description={'Hi, I\'m an ACM student.'}
                             imgLink={img3}
                             objectFit={'cover'}
-                        />
+                        >
+                            Hi, I'm an ACM student.
+                        </ProfileCard>
                     </Col>
                 </Row>
             </Container>
